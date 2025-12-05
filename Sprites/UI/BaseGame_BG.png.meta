@@ -1,0 +1,8025 @@
+fileFormatVersion: 2
+guid: 3aba6b0ad7b9c87488a055774c08aa5a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BaseGame_BG_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 4081
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c64f2a972e99741aaeee48b5585cae
+      internalID: 288571082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_1
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 3821
+        width: 226
+        height: 264
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f44cec5a2557642b5935ce2fd044bf
+      internalID: 905925019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4051
+        width: 22
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afeaf31ee77e1142b13d5c41e10d00a
+      internalID: -352158884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 4065
+        width: 13
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729ad2f9920cb2341a15dcf97c51fb5a
+      internalID: -372107960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 4049
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e9a546854dc25479d371e2ba50caa6
+      internalID: -134722780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_5
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 4035
+        width: 23
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd698b8c118defd499549fa95b5a7e7f
+      internalID: -507474862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_6
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 3820
+        width: 140
+        height: 245
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551d63479507f504fbeb81b0a5638216
+      internalID: 1413579953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_7
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 3913
+        width: 196
+        height: 146
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea721df1a1344945b7b882e724969e6
+      internalID: 1696452109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_8
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 4053
+        width: 7
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d9ceb6e14fcb5478a89a021ac929ca
+      internalID: 184195083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 3822
+        width: 234
+        height: 220
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b99d41fa02529046ad3793ee26012c0
+      internalID: -137445401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_10
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 4035
+        width: 15
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a643497474d1a44aa86aeccf2d1b2f
+      internalID: -345217230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_11
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 3828
+        width: 168
+        height: 220
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4465f709b20ba4392bb14f154f7982
+      internalID: 1981527115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_12
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 4037
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147b767bf5e037d419279303914545e1
+      internalID: 554961446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_13
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 4033
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717ef1a32c9f1564ca5f7dc2b91cc99e
+      internalID: 1481818686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_14
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 3819
+        width: 192
+        height: 234
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2430e6630b8dda046bd470f0a00bb8ae
+      internalID: -1413500850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_15
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 3826
+        width: 233
+        height: 202
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912647d1b44cdef46baa6259384f4807
+      internalID: -1382863869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_16
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 4022
+        width: 8
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094ee08c63484b44abed4d780980356a
+      internalID: -384862188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_17
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 4021
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacafe5a3139db144803a0f2fc3f43b3
+      internalID: -1087109644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_18
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 3890
+        width: 159
+        height: 147
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8747ca1595e344d97c949f2d139143
+      internalID: 1118519833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_19
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 3821
+        width: 189
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0ba6f05d8920a42bc1942562176107
+      internalID: 1168737092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_20
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 3856
+        width: 142
+        height: 179
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fcc4c19371ad94dbf5ac6e4babba82
+      internalID: 2139346801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_21
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 3821
+        width: 110
+        height: 216
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1b9bce33dc61e4f96e9b5ce8cc82e3
+      internalID: 673314744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_22
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 3819
+        width: 173
+        height: 214
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367780fd45c039e47a7ff2cf676b91bc
+      internalID: 1985315110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_23
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 3819
+        width: 279
+        height: 209
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceadbd32560138439e4454c4daa91ce
+      internalID: 192257165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_24
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 4013
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9b421f755645b4ab32767624869548
+      internalID: 474882980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_25
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 3820
+        width: 188
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57343047e93e794f80c91eb63c7f72b
+      internalID: -358743284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_26
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 4007
+        width: 7
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0342f5bb3555b0743bc8f64f20054efe
+      internalID: 411713382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_27
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 3985
+        width: 23
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375f29980faf24a40aae41681ddec3b7
+      internalID: -1459356722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_28
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 3969
+        width: 24
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132fc43d623fa4d4ebe4e5340ed1a9d0
+      internalID: 1772694477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_29
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3836
+        width: 128
+        height: 155
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c877f93237d844d8313b1909dc3c1a
+      internalID: 1382423295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3943
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e36c08008d949e4b90249545243c84a
+      internalID: 811389622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_31
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 3882
+        width: 30
+        height: 102
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f46cb2b61bc1647ae972560dc478be
+      internalID: 1937081993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_32
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 3929
+        width: 14
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e845e6c781b1d4cbbb6a314fa3abac
+      internalID: -850910828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_33
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 3865
+        width: 70
+        height: 70
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57c4ebd06fe8704baaaf38642c085d9
+      internalID: 538846921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_34
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 3876
+        width: 34
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a121480de5b21345b3e6c281b085c06
+      internalID: -1916069925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_35
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 3861
+        width: 21
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7d4b3384baff5439b2387e2a87c57a
+      internalID: -872157139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_36
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 3824
+        width: 20
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bf5d9f67182d54ba29c0f1702d1966
+      internalID: -2050605711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_37
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 3818
+        width: 45
+        height: 51
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94792e679c7b7bb499387f074e72b522
+      internalID: 1231939125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_38
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 3820
+        width: 46
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e467a71c45dd54eb1d84a51ed9ca01
+      internalID: -1676990018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_39
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 3830
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792ac14e885565f48823a99da43863e4
+      internalID: 1775962825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_40
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 3828
+        width: 28
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509b563d42783c0418324e2e3cebf68d
+      internalID: 1244957667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_41
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 3832
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7e205e9300ca4468716b150f068f5d
+      internalID: 1848171084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_42
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 3824
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d850cfadb1d03e0479606ce08495143f
+      internalID: 1260604977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_43
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 3824
+        width: 26
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee4490831929fc4ba981f176fba3842
+      internalID: -331501114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_44
+      rect:
+        serializedVersion: 2
+        x: 2718
+        y: 3826
+        width: 10
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad12084cc5b3b641935f063d52a95c0
+      internalID: 108762135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_45
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3674
+        width: 151
+        height: 140
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4041954f4acfaa147beb055ffe9d434e
+      internalID: -138300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_46
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 3805
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8d2bbb0daab954aacd78dcfb6cafb4
+      internalID: -927051375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_47
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 3809
+        width: 10
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df619460e2fe36142bc484fe04575be4
+      internalID: -1159237595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_48
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 3805
+        width: 9
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f52cea3fa73fd429087a622f951269
+      internalID: 527838904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3678
+        width: 148
+        height: 131
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b5ee2fd18aacd4bb22542040690ebf
+      internalID: -538763622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_50
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 3673
+        width: 172
+        height: 131
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dff5a73105839248be72cf8d78baca9
+      internalID: 2096587524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_51
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 3675
+        width: 146
+        height: 130
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e677ecb61543041a856ae06b6dddad
+      internalID: -226601770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_52
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3676
+        width: 146
+        height: 130
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02583dbdac5fc2459679075c78de03a
+      internalID: 490639746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_53
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 3676
+        width: 146
+        height: 130
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721251ecc8341264fa777be0e17192cc
+      internalID: 1866058570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_54
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 3676
+        width: 146
+        height: 130
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3643fd1624c1347a74bb4c53005f1c
+      internalID: -611799751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_55
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 3677
+        width: 146
+        height: 128
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36166d166d879c4a91d9015a1ae2088
+      internalID: 1179172226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_56
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 3675
+        width: 128
+        height: 130
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7418fa12f640094a84979c46dbf1d85
+      internalID: 1002268881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_57
+      rect:
+        serializedVersion: 2
+        x: 3591
+        y: 3464
+        width: 349
+        height: 324
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175c5ec19a6b95141bd88e1265518700
+      internalID: 2091543911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_58
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 3750
+        width: 48
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e5adbfe1493f146beb159f81546669
+      internalID: -1599707984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_59
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 3779
+        width: 6
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d45e702660da247ab838123f40b350
+      internalID: -1394295766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_60
+      rect:
+        serializedVersion: 2
+        x: 3531
+        y: 3765
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9fcb9ae4f571b44897b14e3b4a05d1
+      internalID: 1307900148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_61
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 3769
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca542a600514d7d47bb65f317abfcc8b
+      internalID: 2094732264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_62
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 3763
+        width: 12
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8350d5618574684aba8b3e31f9e6c72
+      internalID: 1015525741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_63
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 3769
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd193635dc81be4ba81c1a22c2d2c87
+      internalID: 275953718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_64
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 3759
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd6622aec52b749b4f5ffbf53bad63
+      internalID: 305729486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_65
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 3753
+        width: 11
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab0d575a957ba94bbe79e27b1439c67
+      internalID: 1056783301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_66
+      rect:
+        serializedVersion: 2
+        x: 3822
+        y: 3757
+        width: 6
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06013381b433ccf4f9d9c67b72e20cc9
+      internalID: 110545879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_67
+      rect:
+        serializedVersion: 2
+        x: 3566
+        y: 3694
+        width: 52
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1093484b6b07bf42bc6dd02d9a62981
+      internalID: -467422875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_68
+      rect:
+        serializedVersion: 2
+        x: 3970
+        y: 3575
+        width: 118
+        height: 132
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d4d31a4c683e84f957be2f4f6508a0
+      internalID: -1440798542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_69
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3399
+        width: 150
+        height: 196
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd94e4234f253f47b2799fe83c30a21
+      internalID: -1917857128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_70
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3401
+        width: 168
+        height: 185
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e5ef110fe2c046954a89bb0c8733f
+      internalID: -966376330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_71
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 3520
+        width: 144
+        height: 151
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a88cc1fb05b53345b3fc995b85f572e
+      internalID: 1157815521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_72
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 3577
+        width: 9
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740690fa2ed222547b41c65f640bc91c
+      internalID: -416519380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_73
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 3402
+        width: 170
+        height: 174
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11355e405cf80ad4f8685002ffd7c538
+      internalID: 1341906356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_74
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 3402
+        width: 174
+        height: 172
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b62eb46a15f6b442a57b14aae1eaa24
+      internalID: -86708448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_75
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 3402
+        width: 168
+        height: 173
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b111cd1d040974640852b5d032a64d5c
+      internalID: 829386836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_76
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 3568
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0088f537d01b94bb75255108ecab29
+      internalID: -251588129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_77
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 3429
+        width: 141
+        height: 144
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c8947303cba024482c81f0131017d1
+      internalID: 1619449896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_78
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 3539
+        width: 9
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d61a4ecd7fb8a48b91a61f2163cb69
+      internalID: 1241582930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_79
+      rect:
+        serializedVersion: 2
+        x: 3063
+        y: 3393
+        width: 122
+        height: 124
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbf673129c4f7c488e2c062c35fc33c
+      internalID: 303822805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_80
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 3253
+        width: 220
+        height: 272
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58725f32194aad445a3aa9dc0c18c5bd
+      internalID: -2083841039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_81
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 3505
+        width: 11
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9a2ce1ff6366242a8ddd3e788870e6
+      internalID: 7723736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_82
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 3487
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e62d0db0e478145ab5880a81ab4936
+      internalID: 1638136639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_83
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3479
+        width: 12
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd3841d3cee21f4b90e1f5beb9d2090
+      internalID: -1693635770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_84
+      rect:
+        serializedVersion: 2
+        x: 3693
+        y: 3454
+        width: 13
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b118f4629a35a3848972ea21e5838e49
+      internalID: -1099270544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_85
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 3429
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f141ec71f7b288e4e92cc15ce1ef4ff4
+      internalID: -1994880924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_86
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 3419
+        width: 36
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d546435110bc964d99432801984ddf4
+      internalID: -949973720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_87
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 3404
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed587ed434428c43a0215e2c86ab86c
+      internalID: -417925638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_88
+      rect:
+        serializedVersion: 2
+        x: 3685
+        y: 3278
+        width: 290
+        height: 147
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc55a38c1d9cd7e4c9c21a1a9da0caaf
+      internalID: -42350872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_89
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 3237
+        width: 134
+        height: 160
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cbd2caf37280a43a86023292008851
+      internalID: 274373663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_90
+      rect:
+        serializedVersion: 2
+        x: 3100
+        y: 3388
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc31fde3300d2cd4fa51e24b3be72fef
+      internalID: 22656895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_91
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 3349
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5c3744471cb7947a0d8375bb2bf332
+      internalID: -180769784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_92
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 3339
+        width: 12
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb484c10e8922c41aad7204c1e92430
+      internalID: 1329375379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_93
+      rect:
+        serializedVersion: 2
+        x: 2770
+        y: 3022
+        width: 448
+        height: 316
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ec6f1975f14a14eb249bf307d2a8cd
+      internalID: -828082732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_94
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 3009
+        width: 334
+        height: 244
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4e558ac226d9941b3d1345cf822323
+      internalID: 553999377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_95
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 3242
+        width: 73
+        height: 73
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55de5ff932a42454abcbdb537a954590
+      internalID: -1629749097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_96
+      rect:
+        serializedVersion: 2
+        x: 3657
+        y: 3213
+        width: 81
+        height: 79
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb106fe8145b4ae439d9f545e1bdb13f
+      internalID: 1289396012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_97
+      rect:
+        serializedVersion: 2
+        x: 3975
+        y: 3233
+        width: 32
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbba79a18ca748a47ae27ad7a0bac656
+      internalID: -1620025166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_98
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 3084
+        width: 138
+        height: 142
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085c41865780f3c4b87b2430d6c558fe
+      internalID: -713118113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_99
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 3083
+        width: 130
+        height: 152
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc7178c6ca8871409e0ef6c219c1fa8
+      internalID: -1320607525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_100
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 3163
+        width: 40
+        height: 41
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdff2682d7e69ad498b3362977016c26
+      internalID: 555819424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_101
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 3106
+        width: 34
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e098a08fb368ea7488b4dac54fe738e8
+      internalID: 1915728601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_102
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 2807
+        width: 200
+        height: 188
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1657915331bde79468f83bddf7434627
+      internalID: -1928130785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_103
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2823
+        width: 176
+        height: 210
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768ebee5e3e1472439ce2bd32b27df7c
+      internalID: -536237544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_104
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 2966
+        width: 164
+        height: 130
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c5b5813f810b44fbc49ab72dfaa90e
+      internalID: 2082348404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_105
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 2689
+        width: 280
+        height: 390
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2a3ac0e1e58d84b9df0c8eca9a1266
+      internalID: 1831836214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_106
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 2977
+        width: 42
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b279418f0d41449842ddd6272c87be
+      internalID: 1822051342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_107
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 2932
+        width: 62
+        height: 62
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea468f066eb57248bc892066aebfb4b
+      internalID: -1667928016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_108
+      rect:
+        serializedVersion: 2
+        x: 3359
+        y: 2945
+        width: 86
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32be23a35aac7b94f8ae045816840511
+      internalID: 1019814544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_109
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 2957
+        width: 298
+        height: 144
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5aba8e23a70fb47a311b996b308b59
+      internalID: -79580372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_110
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 2927
+        width: 82
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5cc793fa545084c94cc249dcd1675c
+      internalID: 1874128188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_111
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 2987
+        width: 75
+        height: 74
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16504e7b8b42b64b8b3148ab0735d39
+      internalID: 115823880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_112
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 2828
+        width: 150
+        height: 129
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18af232e7093f154a951a01a0176ab28
+      internalID: -378778840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_113
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 2955
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7699c5117c1f84249907aa8f510e474a
+      internalID: -70478012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_114
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 2927
+        width: 33
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf9e258a8ddc8e43a157842ffed2311
+      internalID: -933971236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_115
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 2749
+        width: 211
+        height: 189
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d920b2d5d58ee4a46aa9c9e952a2ca8d
+      internalID: -1302224657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_116
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 2921
+        width: 34
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0061cc8f1259941b343679fcd005bd
+      internalID: -1312173772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_117
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2740
+        width: 172
+        height: 168
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0305dedc93be4c49adbd3c465ff3c7a
+      internalID: -1092776523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_118
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 2803
+        width: 82
+        height: 82
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faa5022e6136f54086b43ecd3aa8b92
+      internalID: -1292684505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_119
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 2853
+        width: 53
+        height: 52
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed232d760bc7f6c4db0a06790d490ce8
+      internalID: -70983241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_120
+      rect:
+        serializedVersion: 2
+        x: 3404
+        y: 2832
+        width: 57
+        height: 58
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a47fffe091060d48a12ef8fb3c83a2c
+      internalID: 1580850243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_121
+      rect:
+        serializedVersion: 2
+        x: 3625
+        y: 2850
+        width: 33
+        height: 33
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a82cf2e447e694980c8f1a34b81eda
+      internalID: 813630303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_122
+      rect:
+        serializedVersion: 2
+        x: 4042
+        y: 2855
+        width: 34
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2204aad26ed11d40974ed52406d1c8a
+      internalID: 1497014164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_123
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 2319
+        width: 624
+        height: 486
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe497cf4d8132445a6879a391779fbb
+      internalID: 994361032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_124
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2801
+        width: 16
+        height: 17
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3766fdc0b36cb40a373f85a57ad253
+      internalID: 1053872934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_125
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 2709
+        width: 297
+        height: 145
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6b57a65ce8c9045a4f43b01a86eb40
+      internalID: -496188989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_126
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 2749
+        width: 74
+        height: 75
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fd9718b14fcf144acd19a0dd0b0c26
+      internalID: -1707288301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_127
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 2728
+        width: 161
+        height: 123
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f16eba4f2ca4042973cde0856dbac0
+      internalID: -1368919295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_128
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 2791
+        width: 42
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3366e1e0e5e4ab48b43ae0e01b5eab5
+      internalID: -1429687063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_129
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2660
+        width: 61
+        height: 85
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4122dd4e46361d444a88b5a849cafddd
+      internalID: -2147142688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_130
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 2696
+        width: 76
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8aa1339701efb4c812cdff6796ecf1
+      internalID: 791912425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_131
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 2541
+        width: 282
+        height: 248
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415118cab2a6b6c4fbbf1814e306eb12
+      internalID: 2061065106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_132
+      rect:
+        serializedVersion: 2
+        x: 2476
+        y: 2733
+        width: 7
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe29efdc2ef16be4b895736809c8e004
+      internalID: -401712610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_133
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 2720
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74915c784a58b3b41b1a4f3eda73d437
+      internalID: -1615965385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_134
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 2728
+        width: 14
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c4a8c8afc61684fb15c2db158694fe
+      internalID: -875258877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_135
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 2732
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa91d2dc0867674ea2f68c46fa5a9ba
+      internalID: 892720209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_136
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 2708
+        width: 52
+        height: 53
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c17bc26a982a04590088271b150405
+      internalID: -2027578100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_137
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 2710
+        width: 52
+        height: 51
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cddb4fa2663bb646850ddbbda8035b2
+      internalID: 265662220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_138
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 2635
+        width: 16
+        height: 154
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e4c1a810cba548b7656e93fc270a9
+      internalID: 1869008798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_139
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2564
+        width: 172
+        height: 168
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9e82594eb74a644bb1a7fbd47f1f49
+      internalID: 1793723578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_140
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 2724
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe602d04ec48a9c47bbbffd34d7330cf
+      internalID: 1404478322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_141
+      rect:
+        serializedVersion: 2
+        x: 3336
+        y: 2716
+        width: 12
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f73088ec570c342bc8f6a276cfdc78
+      internalID: -1346798576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_142
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2648
+        width: 46
+        height: 78
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93ba5ef65dd97e4b8a06487984189b6
+      internalID: 72996268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_143
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 2718
+        width: 10
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27406364d7fac57478ddcdf0fe466f87
+      internalID: 1060054067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_144
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2710
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a51ddf53fd36a04c8114086adc9ea04
+      internalID: -1154429147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_145
+      rect:
+        serializedVersion: 2
+        x: 3324
+        y: 2714
+        width: 8
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6be6c55abcdbc488e8eb98c193703d
+      internalID: 352052682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_146
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2636
+        width: 57
+        height: 57
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbb3258e877efa468ec9b16750b1a87
+      internalID: 1400327638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_147
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 2654
+        width: 51
+        height: 51
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a636d6b61e00f342b36837dd76b22b9
+      internalID: -230082152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_148
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2653
+        width: 46
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46439db51ec578a4ea7c63a259885361
+      internalID: 299736262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_149
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 2619
+        width: 74
+        height: 72
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f4da23bfd8374b9aaf2d90647c5fe
+      internalID: 551683478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_150
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 2677
+        width: 8
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c028eeb29dd4c4f9d5d95867211b1c
+      internalID: -1010022693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_151
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 2674
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587ee2d152d659b43bd4b810586257f9
+      internalID: 319969918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_152
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 2339
+        width: 468
+        height: 364
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9ce5bdcb58c0b4f988fae71e4c390c
+      internalID: 1308392159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_153
+      rect:
+        serializedVersion: 2
+        x: 3292
+        y: 2656
+        width: 48
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22c3a5ff5b165c47b65a1334e119cb8
+      internalID: 188990578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_154
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 2676
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e8dc43f356b054a8fb253e79ecf2bf
+      internalID: 1726301158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_155
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 2578
+        width: 172
+        height: 131
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f00bb4336061f04391023b8e0f8ea7c
+      internalID: 1901455607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_156
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 2510
+        width: 189
+        height: 151
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d54d8afc482eb4ba68d3762b12df90
+      internalID: -200091914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_157
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 2618
+        width: 46
+        height: 47
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfde21099dd8964c8c540128e4dc2dd
+      internalID: -1589165620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_158
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 2648
+        width: 6
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84ef32ee04e877419d1347ca0808e05
+      internalID: -670670488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_159
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2579
+        width: 63
+        height: 63
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a650ba7ae0bb24bac489f9a1c36cc7
+      internalID: 1754555595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_160
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 2594
+        width: 53
+        height: 53
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8684d345346bc49aa0eb27779d2bfe
+      internalID: -719081639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_161
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 2633
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdffc5b004b47440b1d24dfefe99e47
+      internalID: 558214458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_162
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 2636
+        width: 7
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa05fde476acd834ab6575ac610a27d1
+      internalID: 1580517664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_163
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 2631
+        width: 11
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289f7a11000baea4b8ff42815c5b9348
+      internalID: 2122345664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_164
+      rect:
+        serializedVersion: 2
+        x: 2732
+        y: 2628
+        width: 10
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e577ca54444336c41b27adcefb6dcc4c
+      internalID: -1039671536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_165
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 2616
+        width: 34
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238d8b03ba006834988a65d718ea94ab
+      internalID: 388056277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_166
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2571
+        width: 53
+        height: 52
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6431af8e6011324e9a1ec27e350cb67
+      internalID: 1284066249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_167
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 2621
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28269782182148a4b9863038e69427ee
+      internalID: 2082207258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_168
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 2430
+        width: 194
+        height: 199
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0c7ee13e2a1bc48b61ee58ec124185
+      internalID: 1510098269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_169
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 2622
+        width: 7
+        height: 7
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc2d12a9625608449d8b1a54ee774bf
+      internalID: 1521744125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_170
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 2456
+        width: 138
+        height: 161
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df72629fd1cbf04a9d95cf01b5f5c96
+      internalID: -457044816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_171
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 2571
+        width: 108
+        height: 47
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01b3e60f3a923b44879359c8e245913
+      internalID: -965992902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_172
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 2608
+        width: 14
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1b86f74cf337d4ca6ae69f635dbc47
+      internalID: -1689183304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_173
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 2563
+        width: 54
+        height: 56
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6262260fc4e50458a9816e2cc74d66
+      internalID: 785519421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_174
+      rect:
+        serializedVersion: 2
+        x: 2739
+        y: 2611
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d995ce1f1b0b4c429a09e1881b0eaf0
+      internalID: 1733132812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_175
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 2572
+        width: 44
+        height: 46
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e80bc5f906fe7468a7de26b14354e9
+      internalID: -499567422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_176
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 2616
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4d969d4d69acc4d949c3713b226392
+      internalID: 1579646020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_177
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 2579
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351053303f0acc948b2a765739d3c536
+      internalID: 2030973391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_178
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 2585
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369ed969c4a956148b428bb3597cbbef
+      internalID: 1884908830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_179
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1682
+        width: 889
+        height: 881
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aea25d2b1c04004ea36d07890501f4d
+      internalID: -2062446977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_180
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 2381
+        width: 110
+        height: 204
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3355ee80f69064b9688d0de0e171ad
+      internalID: 662808128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_181
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 2561
+        width: 12
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e792807300741408de5a6e0ff04904
+      internalID: 1077847528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_182
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 2459
+        width: 148
+        height: 106
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a54ea19b14718468ab04ad5fc1e92b
+      internalID: 132401866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_183
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2550
+        width: 18
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b71c6b8a50d0b46a4e38d226e9c73a
+      internalID: -1289889122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_184
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2548
+        width: 8
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4455ca3b7325246b56a45a791365d3
+      internalID: -1646730020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_185
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 2529
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3197fceca65c80e4ca9282f65d8b9ece
+      internalID: 1247633668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_186
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2480
+        width: 64
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1c42b1bbd638b4999eeb8163188d87
+      internalID: -1036800010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_187
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2540
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085cf6e877862148b54cc4aa71d0db9
+      internalID: -324168625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_188
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 2506
+        width: 12
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d4f885cce0c1f4db53be83d8743ebc
+      internalID: -1698882366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_189
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 2204
+        width: 321
+        height: 335
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d220a729599a93640954e81ff1e84841
+      internalID: -2123293677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_190
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 2499
+        width: 16
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bf6926be81509478c93b45ac1b0f7c
+      internalID: 121354719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_191
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 2444
+        width: 38
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3633c3630d19a944ad20de490ab7056
+      internalID: 272033613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_192
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 2464
+        width: 8
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988837e3783878e4591ff10a516db242
+      internalID: 1707093702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_193
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 2345
+        width: 66
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260198fd6bfbd6147b5bca25dde9f7fe
+      internalID: 1367212850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_194
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 2440
+        width: 14
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8718b96b7bffae84ca6d3021bb1a7734
+      internalID: -1807507528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_195
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 2438
+        width: 25
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67d597b5bf3edc43851b003870be9b3
+      internalID: 1105668236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_196
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 2428
+        width: 9
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a741c212eb07e0640927cde92e5c5047
+      internalID: -2146080514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_197
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 1701
+        width: 458
+        height: 752
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f327e306d4974f04b9fd28abf153ad48
+      internalID: 57870534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_198
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 2289
+        width: 501
+        height: 148
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d67b16f4595048a94e683af73d701
+      internalID: 1572093316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_199
+      rect:
+        serializedVersion: 2
+        x: 2622
+        y: 2412
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627fecf6c11ced4b91c2f7410780ebd
+      internalID: -37020999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_200
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2428
+        width: 5
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2382674918b112c43b77202675f6e580
+      internalID: -939475749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_201
+      rect:
+        serializedVersion: 2
+        x: 3259
+        y: 2339
+        width: 144
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd0c0f1b0a07474ea65150c51dad0de
+      internalID: 23277247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_202
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 2417
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47870fd3a145a48449e3ced670737e49
+      internalID: 830365133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_203
+      rect:
+        serializedVersion: 2
+        x: 2666
+        y: 2422
+        width: 5
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4278c70d6c522458c4e8560cc92305
+      internalID: 1062880853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_204
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 2390
+        width: 16
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6a18343a5cf844d952811da0ce6745
+      internalID: 1428926553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_205
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 2416
+        width: 5
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909bcf68569b75343b31853c90a9e759
+      internalID: 1497588494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_206
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 2392
+        width: 16
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd386f56dcf25341a42a71f5ddf4a0d
+      internalID: 1894559511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_207
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 2406
+        width: 7
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733c3fc8f28ae6a4ba16277ab30a6252
+      internalID: 401714696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_208
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 2386
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e069c71aa884142a2874015bdc063a
+      internalID: 402857310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_209
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 2394
+        width: 5
+        height: 5
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90bf7a688ab6bd7478dcb59ac273e697
+      internalID: 778109834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_210
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2366
+        width: 14
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5c59938b4df2a4bbf1d69faf425a58
+      internalID: 1859959228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_211
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 2382
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c417f4ceee4ba4e94762bf0497253c
+      internalID: -1899399866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_212
+      rect:
+        serializedVersion: 2
+        x: 2636
+        y: 2378
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6648e461c2da3224b863e7fe4076f542
+      internalID: 1697269721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_213
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 2364
+        width: 24
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937d77a8b944e314091d66f112000264
+      internalID: -1960777761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_214
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2291
+        width: 107
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e719cd3d31c38b540905b099ac699786
+      internalID: -1786343641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_215
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 2372
+        width: 14
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b43f8e4038dc5d42b42ba15dce16c48
+      internalID: 2010378340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_216
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 2326
+        width: 4
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ca0db22ef8e2040904c456cd6ab76b
+      internalID: 648594259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_217
+      rect:
+        serializedVersion: 2
+        x: 2797
+        y: 2293
+        width: 68
+        height: 42
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f708a7026ced31c49a172a2c82d1edf8
+      internalID: -1157258864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_218
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 2283
+        width: 92
+        height: 48
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2902cbfdb49a8ab4396a5b7bb0ac02d2
+      internalID: 1268469933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_219
+      rect:
+        serializedVersion: 2
+        x: 3517
+        y: 2209
+        width: 112
+        height: 132
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025607fc386b5c54fbc147fe1d51553d
+      internalID: -1429222583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_220
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1822
+        width: 574
+        height: 487
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a400ce29de263f94ca3450b2a03f3a03
+      internalID: 2016504457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_221
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2282
+        width: 46
+        height: 38
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe32bfc56f95664cbf5057e296e6fad
+      internalID: 1987910933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_222
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2153
+        width: 226
+        height: 155
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871a2cdbc46e2ce4ea9a0b43ea06e87f
+      internalID: -602654644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_223
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 2279
+        width: 26
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3298ac6edc4a94f89ebf6d43c316c3
+      internalID: 1808041892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_224
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 2291
+        width: 8
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7a549a74ad77d4fa220faf6be816fa
+      internalID: 683617014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_225
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1237
+        width: 594
+        height: 1052
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1950f49328900439325be640ce50d5
+      internalID: 305134364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_226
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 1859
+        width: 286
+        height: 344
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f9b332cfba0fc49aa38bc64e6e2721
+      internalID: 541957627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_227
+      rect:
+        serializedVersion: 2
+        x: 2756
+        y: 2076
+        width: 19
+        height: 126
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8966075625f5aad41b6a40151bcadd56
+      internalID: 2001332742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_228
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 2198
+        width: 26
+        height: 39
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a95129505115d4abf58b68a8892309
+      internalID: 1608517661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_229
+      rect:
+        serializedVersion: 2
+        x: 2923
+        y: 2171
+        width: 98
+        height: 120
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b31dd44680a5245a6bdaea075dd4e1
+      internalID: -811799267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_230
+      rect:
+        serializedVersion: 2
+        x: 2995
+        y: 2121
+        width: 150
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c271dab5d07ea594d95c212b4b258ea4
+      internalID: -2008563628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_231
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 2017
+        width: 114
+        height: 184
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faa46b39b6abb141988e98e66ceeb6a
+      internalID: -57319448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_232
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 2095
+        width: 106
+        height: 84
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9a64e29c75c8a4ba53bd8ccec53420
+      internalID: -1625335305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_233
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 2151
+        width: 18
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3215ec4cee503248947dc708d26c3fe
+      internalID: 1075504586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_234
+      rect:
+        serializedVersion: 2
+        x: 2959
+        y: 2151
+        width: 8
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bc2955efe842b41831bebb845a3b21
+      internalID: -1152976919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_235
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 2085
+        width: 70
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94154ee1a16fce649911759e1e22bb5c
+      internalID: -255305517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_236
+      rect:
+        serializedVersion: 2
+        x: 3109
+        y: 2089
+        width: 32
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d770d63d80e83904c8d770746a4fa450
+      internalID: 104751995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_237
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 2101
+        width: 50
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83caccd58817b7e4783713fa9a73b8b7
+      internalID: -9261694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_238
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 1919
+        width: 282
+        height: 208
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2da348dbb667b47b5e5f913e276f78
+      internalID: 160400490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_239
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 2072
+        width: 4
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819bfa8eca42f6046978fb4cde2de216
+      internalID: -745048825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_240
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 2067
+        width: 36
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d945aec76d5d964183e84cab09c616d
+      internalID: -86374077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_241
+      rect:
+        serializedVersion: 2
+        x: 3061
+        y: 2077
+        width: 44
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eaed30b19ad444f9a47a658c824bca
+      internalID: 851281192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_242
+      rect:
+        serializedVersion: 2
+        x: 3141
+        y: 1975
+        width: 96
+        height: 122
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ceb6512520d7d4999d9ccede754f8e
+      internalID: -1145018813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_243
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 2068
+        width: 10
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f66a8d5f9d8864d9b8729b43162c31
+      internalID: 1094268621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_244
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 2064
+        width: 6
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce474f3993949614490707b377c3ef31
+      internalID: 1735055846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_245
+      rect:
+        serializedVersion: 2
+        x: 2768
+        y: 2056
+        width: 4
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5950bf5b93d404a41a62a3f18bec1544
+      internalID: 1705076141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_246
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 1845
+        width: 162
+        height: 152
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59b6c7caa1fc914faafe18ba19bda97
+      internalID: 1178609762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_247
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 1959
+        width: 91
+        height: 90
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c467e8dcdff7f7f4aa680b6d2b16236b
+      internalID: 1895589865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_248
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 1995
+        width: 9
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04d87530806bcf44a1e0992e916a5ff
+      internalID: 961407993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_249
+      rect:
+        serializedVersion: 2
+        x: 3524
+        y: 1852
+        width: 110
+        height: 144
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0765269e5679e45498bb31998684b391
+      internalID: 1110884240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_250
+      rect:
+        serializedVersion: 2
+        x: 2630
+        y: 1846
+        width: 100
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f41a0080665e545b607a673275c0be
+      internalID: -488221604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_251
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 1851
+        width: 72
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd4919ac4d7eb34a94d39288b0b48f4
+      internalID: -303491475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_252
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 1912
+        width: 4
+        height: 4
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bee12af002d2714ebfdd8058289494c
+      internalID: 605302558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_253
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1791
+        width: 50
+        height: 88
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec22e5cdc1145ed45bf7f7485e4c7551
+      internalID: -508579698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_254
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1329
+        width: 819
+        height: 477
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eaa15ae6a3cb342a934be490851f33
+      internalID: 1662691859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_255
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1713
+        width: 76
+        height: 128
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713b36f063c7ffc459fb5d9c18503813
+      internalID: 1614616189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_256
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1525
+        width: 170
+        height: 368
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d3dd3b5204a664384a633e1c410dde
+      internalID: 941245413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_257
+      rect:
+        serializedVersion: 2
+        x: 2791
+        y: 1457
+        width: 806
+        height: 394
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c146ef19fbea44abdaf78ade2e3d98
+      internalID: 806966765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_258
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1681
+        width: 52
+        height: 106
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0786e7f56496b4dbe79b9cd266e685
+      internalID: 765758251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_259
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1629
+        width: 80
+        height: 80
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ca1853b8e41bc43b05b4957683b9fd
+      internalID: -1366062233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_260
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 1517
+        width: 450
+        height: 182
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce53c34fbcdb074e99ee279fb747e98
+      internalID: 878175138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_261
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1061
+        width: 954
+        height: 616
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33adcc316d04f904693356285e71fc10
+      internalID: 220484986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_262
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1517
+        width: 80
+        height: 110
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d19c109680902f46ae8a365bae0afe0
+      internalID: 1089145707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_263
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 1515
+        width: 41
+        height: 40
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6177c57191b570442901de2c2d034651
+      internalID: -1004201497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_264
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 1411
+        width: 60
+        height: 100
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3aac9c988709c418ee54dd2de6c3f0
+      internalID: 724303296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_265
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1457
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58c40ed3c9b26043a85fe01b3d7f2a4
+      internalID: 189000891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_266
+      rect:
+        serializedVersion: 2
+        x: 2504
+        y: 1226
+        width: 284
+        height: 286
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fe998c6e600e6429db716b4de56d53
+      internalID: -1296638366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_267
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 1321
+        width: 104
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5626bd9e0fd6604082bef1fc8cabdb8
+      internalID: 956603632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_268
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 1321
+        width: 101
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65350cb24cd1a64c9d18a8959dab017
+      internalID: 1944382660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_269
+      rect:
+        serializedVersion: 2
+        x: 3874
+        y: 1302
+        width: 214
+        height: 208
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ff4228d9f7a594da31e5c922fff07a
+      internalID: 361083635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_270
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1427
+        width: 9
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fa5fce77e89ae4dbc71bc3a8f38b15
+      internalID: -1834448480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_271
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1413
+        width: 8
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a150c16b408964799e817a51d3b8a8
+      internalID: 1668026344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_272
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 1415
+        width: 7
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d62fc53a8df8334a95f2c4fe194375a
+      internalID: 128710754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_273
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 1397
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3401cf54eb53a2d418f72f127a0a48ba
+      internalID: 507300627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_274
+      rect:
+        serializedVersion: 2
+        x: 2465
+        y: 1401
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a077615417d2cfb4595dfa6e7c872e23
+      internalID: 1859878045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_275
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 1395
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c14c98314264c9419d66e5bf4e10e62
+      internalID: 322036414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_276
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1381
+        width: 6
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48169f23a7bd84b4da618c74d01d86e3
+      internalID: 293037970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_277
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 0
+        width: 2520
+        height: 1322
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 1247, w: 321}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fbb2e5b5c9fd94caf43e4638e28fde
+      internalID: 145442678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_278
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 1287
+        width: 90
+        height: 94
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d30e7aee932d3e4a83a8387e6ea5768
+      internalID: 1068003170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_279
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 827
+        width: 219
+        height: 468
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f40fa48d253a574ab6281e7b65761bf
+      internalID: -1199660095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_280
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 553
+        width: 724
+        height: 508
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1357530044afba41b6b977b29b0e4a7
+      internalID: 698279227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_281
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 567
+        width: 546
+        height: 667
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c05c4457edb0fa408190f436607690d
+      internalID: -1705486396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_282
+      rect:
+        serializedVersion: 2
+        x: 3988
+        y: 630
+        width: 103
+        height: 193
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fcd698e3ffa8a48af00c4291b17720
+      internalID: 1104274001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_283
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 565
+        width: 142
+        height: 62
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f27adc8db8a344292eabc808e15432
+      internalID: 1579651427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_284
+      rect:
+        serializedVersion: 2
+        x: 3987
+        y: 510
+        width: 104
+        height: 116
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7778e5c78f5ce44db29fdbc6b7b8acd
+      internalID: 7280682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_285
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 547
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14945ffbb274ac643a77bd429db451d7
+      internalID: -1134721296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_286
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 515
+        width: 14
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dfef492b80256448f03d47e412ad79
+      internalID: 1056174683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_287
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 491
+        width: 7
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a6da37c90b254c87ee4bed1fa6b8f
+      internalID: -1243711566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_288
+      rect:
+        serializedVersion: 2
+        x: 3990
+        y: 396
+        width: 98
+        height: 110
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9086529a50611684194a186033b6275c
+      internalID: -1078261858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_289
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 474
+        width: 13
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91b811e8d456c247a4895eb48804e58
+      internalID: 1557618252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_290
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 477
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7ab02ef46a3ce4d97a87fbb8fbfbc2
+      internalID: 2106035588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_291
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 474
+        width: 6
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d388d6009ae8641afb33778de82c83
+      internalID: 27883228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_292
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 479
+        width: 10
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6971cd329dc504bb2e2b86c96f865e
+      internalID: -540309838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_293
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 464
+        width: 11
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5897f7701ad72894780fd8351076b691
+      internalID: 1175204922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_294
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 463
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eded4f1f7c2efa4eb94e14c6faff2c3
+      internalID: 1007267077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_295
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 453
+        width: 10
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cac2760e5bf396498139a249373a6b0
+      internalID: 1904539386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_296
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 436
+        width: 17
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a117ede0e2e48469511376725be376
+      internalID: 2008303807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_297
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 447
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2088103c914ee40ba360b69eae7ddc
+      internalID: 502273690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_298
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 441
+        width: 10
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38c2373d3933da4dba7b1723b00acaf
+      internalID: 1440224572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_299
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 413
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3d0d159cb68b24e9d2c3acc1f04d48
+      internalID: -314086537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_300
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 421
+        width: 14
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3c86de19906a7478017ea5c04cb212
+      internalID: -1956703247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_301
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 405
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1da7137863d6c24cb8496d0377a0648
+      internalID: 848408709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_302
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 409
+        width: 10
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e687d6aded9f842b24b8f7b289a6ec
+      internalID: 771331059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_303
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 411
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156c86ac8f1b20a40a1e2437df82329f
+      internalID: 1726352496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_304
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 407
+        width: 10
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac6c8bfcf4b3a64d9c2c42f2d7e2c47
+      internalID: 2106409441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_305
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 387
+        width: 15
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb043913cf6f0de468ecc22a3a4a2862
+      internalID: 1835591650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_306
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 369
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a508903edeb712468db995417bf4bfd
+      internalID: -1451216310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_307
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 377
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cc88e16b43c5d48ba2ee02701a5acd
+      internalID: 1726522175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_308
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 333
+        width: 14
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e3717b82316474fb8aee4da8d3518b
+      internalID: 1522603077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_309
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 334
+        width: 10
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d300cedc2ac333548bff4138be8a1b4f
+      internalID: -1451590032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_310
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 341
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146bf84ee569bf8449cf5890577b071e
+      internalID: 339865586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_311
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 321
+        width: 10
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c828a62af144c46a9b63b5557b906a
+      internalID: -293404681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_312
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 323
+        width: 12
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72ce4e6d72bcb646abecc9a04a9f408
+      internalID: -653970655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_313
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 281
+        width: 10
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a32e80a9fc7fa449fca98ffd47327c
+      internalID: 1711681337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_314
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 281
+        width: 14
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0984e07879463ae4691357c89f97463d
+      internalID: -803278896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_315
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 273
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514ba111012ae0d498b3d04d837a56fa
+      internalID: 891589260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_316
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 253
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fa495bbd4928040989bb27fc303782
+      internalID: -605632235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_317
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 237
+        width: 10
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cefa4b327aca04a89725063ac81a4a
+      internalID: -2136614459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_318
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 241
+        width: 12
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6feb414605fc6e43bab8b57a68329f4
+      internalID: 261337703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_319
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 237
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f0ceabef5ea2489c86d64490c0dbd
+      internalID: -850497775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_320
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 219
+        width: 10
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925684201e16cdb40b7cd6d6e4fdb1a2
+      internalID: -1718648310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_321
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 211
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a030032eb5bda4a89a4f2979d8a2ab
+      internalID: -365132424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_322
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 217
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b713cb51c423d454b8318ac65aa886a5
+      internalID: -118948343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_323
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 8
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3ed3d1f20bfdc4caa42ee0af7f4503
+      internalID: -2039536395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_324
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 190
+        width: 8
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b38fc08af84684687365faf56dcf29
+      internalID: 1804519838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_325
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 179
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b1bf3b2b2d43c4f826f96fc5d4145e
+      internalID: -1619066441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_326
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 173
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fe1ea30ec77b84e8dda6eb88460ac6
+      internalID: 712486123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_327
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 171
+        width: 12
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d091ff77e5a76dd46838cd31e2221ba5
+      internalID: 1602470407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_328
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 165
+        width: 7
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7f175a13301f443ab17b131ffa30ba
+      internalID: 1723445377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_329
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 165
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1989ddfaf336a874e8eceff973d90afd
+      internalID: 688761939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_330
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 161
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd79dbd9db1a90a48bc19ef77ac82912
+      internalID: 1219261702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_331
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 166
+        width: 16
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d47600c413d7243ab3661da4123365
+      internalID: 1975472540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_332
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 155
+        width: 10
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af171e7559b947847aab1fd4b6717f91
+      internalID: -350071481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_333
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 151
+        width: 10
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c69234f5c322cf4da944346b8ac7c1a
+      internalID: 253773869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_334
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 147
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86eeb54ad7dabe4789c9561196dfbe5
+      internalID: -1044164657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_335
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 143
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd448bca5499ca4f84b3b1559d65b0a
+      internalID: -646769469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_336
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 137
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144f33f8c2a3b3946ad17dfacf8315da
+      internalID: 1314540467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_337
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 127
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d7a0fdb6c1f204185e0a61ff5f4572
+      internalID: -2089659344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_338
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 133
+        width: 13
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867c72aca45aa964abfa4a5fc7b111ce
+      internalID: -662230948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_339
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 127
+        width: 16
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b89f2fd1659c67246a911c6813b137bf
+      internalID: 2137847158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_340
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 123
+        width: 8
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901b53570d9379d40a8a6f01b6f46900
+      internalID: 520621094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_341
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 125
+        width: 10
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ec12620f19d2845bb7b3778f927a7d
+      internalID: 690632826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_342
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 117
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9de38aadc4a79459fb93c27cb63936
+      internalID: 1702080813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_343
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 113
+        width: 8
+        height: 9
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7563e04847e92498c30419dc2ee86b
+      internalID: 1355144394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_344
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 109
+        width: 10
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84fc06a77c74154c861043483d8c394
+      internalID: -1057631135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_345
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 103
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ff81e89657d71428ea4cd1fa49c48b
+      internalID: -1507963476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_346
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 101
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b31d687f0500b40bd019dc589a8c9a
+      internalID: -710298172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_347
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 99
+        width: 12
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b6c13447469304d8d2ab297150d0de
+      internalID: 1274112842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_348
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 93
+        width: 8
+        height: 8
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58955107b4cc40b4cb5ddef646625c99
+      internalID: -2121249470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_349
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 83
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ed1c14fed9fc241ba1ce447bd70512
+      internalID: 1254412616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_350
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 81
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fd00d85c9c753498fe90b96f5a678d
+      internalID: 314610806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_351
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 63
+        width: 10
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc12c6ec87e2f644a2e7f4003150c2d
+      internalID: -462683755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_352
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 71
+        width: 12
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696a47da96fc88246ac629d020656f1b
+      internalID: -338312629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_353
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 53
+        width: 8
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e504a833bd92b4eb2fadbea70a16af
+      internalID: 811949882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_354
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 57
+        width: 14
+        height: 12
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861018ad35dc69d4ab56b3692602797f
+      internalID: 1327320515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_355
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 38
+        width: 21
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ef023eadbabac449cc6aa0be42f4e1
+      internalID: -858753573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_356
+      rect:
+        serializedVersion: 2
+        x: 4059
+        y: 7
+        width: 26
+        height: 62
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0e9045f7236ad4d909f19c728d8948
+      internalID: 1109493115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_357
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 41
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba33f38da9c59e4e9936d6d787763e9
+      internalID: 1411483697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BaseGame_BG_358
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 43
+        width: 12
+        height: 10
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797bb034eeda1b34d97bf1e0eb5b4229
+      internalID: 1874314450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BaseGame_BG_0: 288571082
+      BaseGame_BG_1: 905925019
+      BaseGame_BG_10: -345217230
+      BaseGame_BG_100: 555819424
+      BaseGame_BG_101: 1915728601
+      BaseGame_BG_102: -1928130785
+      BaseGame_BG_103: -536237544
+      BaseGame_BG_104: 2082348404
+      BaseGame_BG_105: 1831836214
+      BaseGame_BG_106: 1822051342
+      BaseGame_BG_107: -1667928016
+      BaseGame_BG_108: 1019814544
+      BaseGame_BG_109: -79580372
+      BaseGame_BG_11: 1981527115
+      BaseGame_BG_110: 1874128188
+      BaseGame_BG_111: 115823880
+      BaseGame_BG_112: -378778840
+      BaseGame_BG_113: -70478012
+      BaseGame_BG_114: -933971236
+      BaseGame_BG_115: -1302224657
+      BaseGame_BG_116: -1312173772
+      BaseGame_BG_117: -1092776523
+      BaseGame_BG_118: -1292684505
+      BaseGame_BG_119: -70983241
+      BaseGame_BG_12: 554961446
+      BaseGame_BG_120: 1580850243
+      BaseGame_BG_121: 813630303
+      BaseGame_BG_122: 1497014164
+      BaseGame_BG_123: 994361032
+      BaseGame_BG_124: 1053872934
+      BaseGame_BG_125: -496188989
+      BaseGame_BG_126: -1707288301
+      BaseGame_BG_127: -1368919295
+      BaseGame_BG_128: -1429687063
+      BaseGame_BG_129: -2147142688
+      BaseGame_BG_13: 1481818686
+      BaseGame_BG_130: 791912425
+      BaseGame_BG_131: 2061065106
+      BaseGame_BG_132: -401712610
+      BaseGame_BG_133: -1615965385
+      BaseGame_BG_134: -875258877
+      BaseGame_BG_135: 892720209
+      BaseGame_BG_136: -2027578100
+      BaseGame_BG_137: 265662220
+      BaseGame_BG_138: 1869008798
+      BaseGame_BG_139: 1793723578
+      BaseGame_BG_14: -1413500850
+      BaseGame_BG_140: 1404478322
+      BaseGame_BG_141: -1346798576
+      BaseGame_BG_142: 72996268
+      BaseGame_BG_143: 1060054067
+      BaseGame_BG_144: -1154429147
+      BaseGame_BG_145: 352052682
+      BaseGame_BG_146: 1400327638
+      BaseGame_BG_147: -230082152
+      BaseGame_BG_148: 299736262
+      BaseGame_BG_149: 551683478
+      BaseGame_BG_15: -1382863869
+      BaseGame_BG_150: -1010022693
+      BaseGame_BG_151: 319969918
+      BaseGame_BG_152: 1308392159
+      BaseGame_BG_153: 188990578
+      BaseGame_BG_154: 1726301158
+      BaseGame_BG_155: 1901455607
+      BaseGame_BG_156: -200091914
+      BaseGame_BG_157: -1589165620
+      BaseGame_BG_158: -670670488
+      BaseGame_BG_159: 1754555595
+      BaseGame_BG_16: -384862188
+      BaseGame_BG_160: -719081639
+      BaseGame_BG_161: 558214458
+      BaseGame_BG_162: 1580517664
+      BaseGame_BG_163: 2122345664
+      BaseGame_BG_164: -1039671536
+      BaseGame_BG_165: 388056277
+      BaseGame_BG_166: 1284066249
+      BaseGame_BG_167: 2082207258
+      BaseGame_BG_168: 1510098269
+      BaseGame_BG_169: 1521744125
+      BaseGame_BG_17: -1087109644
+      BaseGame_BG_170: -457044816
+      BaseGame_BG_171: -965992902
+      BaseGame_BG_172: -1689183304
+      BaseGame_BG_173: 785519421
+      BaseGame_BG_174: 1733132812
+      BaseGame_BG_175: -499567422
+      BaseGame_BG_176: 1579646020
+      BaseGame_BG_177: 2030973391
+      BaseGame_BG_178: 1884908830
+      BaseGame_BG_179: -2062446977
+      BaseGame_BG_18: 1118519833
+      BaseGame_BG_180: 662808128
+      BaseGame_BG_181: 1077847528
+      BaseGame_BG_182: 132401866
+      BaseGame_BG_183: -1289889122
+      BaseGame_BG_184: -1646730020
+      BaseGame_BG_185: 1247633668
+      BaseGame_BG_186: -1036800010
+      BaseGame_BG_187: -324168625
+      BaseGame_BG_188: -1698882366
+      BaseGame_BG_189: -2123293677
+      BaseGame_BG_19: 1168737092
+      BaseGame_BG_190: 121354719
+      BaseGame_BG_191: 272033613
+      BaseGame_BG_192: 1707093702
+      BaseGame_BG_193: 1367212850
+      BaseGame_BG_194: -1807507528
+      BaseGame_BG_195: 1105668236
+      BaseGame_BG_196: -2146080514
+      BaseGame_BG_197: 57870534
+      BaseGame_BG_198: 1572093316
+      BaseGame_BG_199: -37020999
+      BaseGame_BG_2: -352158884
+      BaseGame_BG_20: 2139346801
+      BaseGame_BG_200: -939475749
+      BaseGame_BG_201: 23277247
+      BaseGame_BG_202: 830365133
+      BaseGame_BG_203: 1062880853
+      BaseGame_BG_204: 1428926553
+      BaseGame_BG_205: 1497588494
+      BaseGame_BG_206: 1894559511
+      BaseGame_BG_207: 401714696
+      BaseGame_BG_208: 402857310
+      BaseGame_BG_209: 778109834
+      BaseGame_BG_21: 673314744
+      BaseGame_BG_210: 1859959228
+      BaseGame_BG_211: -1899399866
+      BaseGame_BG_212: 1697269721
+      BaseGame_BG_213: -1960777761
+      BaseGame_BG_214: -1786343641
+      BaseGame_BG_215: 2010378340
+      BaseGame_BG_216: 648594259
+      BaseGame_BG_217: -1157258864
+      BaseGame_BG_218: 1268469933
+      BaseGame_BG_219: -1429222583
+      BaseGame_BG_22: 1985315110
+      BaseGame_BG_220: 2016504457
+      BaseGame_BG_221: 1987910933
+      BaseGame_BG_222: -602654644
+      BaseGame_BG_223: 1808041892
+      BaseGame_BG_224: 683617014
+      BaseGame_BG_225: 305134364
+      BaseGame_BG_226: 541957627
+      BaseGame_BG_227: 2001332742
+      BaseGame_BG_228: 1608517661
+      BaseGame_BG_229: -811799267
+      BaseGame_BG_23: 192257165
+      BaseGame_BG_230: -2008563628
+      BaseGame_BG_231: -57319448
+      BaseGame_BG_232: -1625335305
+      BaseGame_BG_233: 1075504586
+      BaseGame_BG_234: -1152976919
+      BaseGame_BG_235: -255305517
+      BaseGame_BG_236: 104751995
+      BaseGame_BG_237: -9261694
+      BaseGame_BG_238: 160400490
+      BaseGame_BG_239: -745048825
+      BaseGame_BG_24: 474882980
+      BaseGame_BG_240: -86374077
+      BaseGame_BG_241: 851281192
+      BaseGame_BG_242: -1145018813
+      BaseGame_BG_243: 1094268621
+      BaseGame_BG_244: 1735055846
+      BaseGame_BG_245: 1705076141
+      BaseGame_BG_246: 1178609762
+      BaseGame_BG_247: 1895589865
+      BaseGame_BG_248: 961407993
+      BaseGame_BG_249: 1110884240
+      BaseGame_BG_25: -358743284
+      BaseGame_BG_250: -488221604
+      BaseGame_BG_251: -303491475
+      BaseGame_BG_252: 605302558
+      BaseGame_BG_253: -508579698
+      BaseGame_BG_254: 1662691859
+      BaseGame_BG_255: 1614616189
+      BaseGame_BG_256: 941245413
+      BaseGame_BG_257: 806966765
+      BaseGame_BG_258: 765758251
+      BaseGame_BG_259: -1366062233
+      BaseGame_BG_26: 411713382
+      BaseGame_BG_260: 878175138
+      BaseGame_BG_261: 220484986
+      BaseGame_BG_262: 1089145707
+      BaseGame_BG_263: -1004201497
+      BaseGame_BG_264: 724303296
+      BaseGame_BG_265: 189000891
+      BaseGame_BG_266: -1296638366
+      BaseGame_BG_267: 956603632
+      BaseGame_BG_268: 1944382660
+      BaseGame_BG_269: 361083635
+      BaseGame_BG_27: -1459356722
+      BaseGame_BG_270: -1834448480
+      BaseGame_BG_271: 1668026344
+      BaseGame_BG_272: 128710754
+      BaseGame_BG_273: 507300627
+      BaseGame_BG_274: 1859878045
+      BaseGame_BG_275: 322036414
+      BaseGame_BG_276: 293037970
+      BaseGame_BG_277: 145442678
+      BaseGame_BG_278: 1068003170
+      BaseGame_BG_279: -1199660095
+      BaseGame_BG_28: 1772694477
+      BaseGame_BG_280: 698279227
+      BaseGame_BG_281: -1705486396
+      BaseGame_BG_282: 1104274001
+      BaseGame_BG_283: 1579651427
+      BaseGame_BG_284: 7280682
+      BaseGame_BG_285: -1134721296
+      BaseGame_BG_286: 1056174683
+      BaseGame_BG_287: -1243711566
+      BaseGame_BG_288: -1078261858
+      BaseGame_BG_289: 1557618252
+      BaseGame_BG_29: 1382423295
+      BaseGame_BG_290: 2106035588
+      BaseGame_BG_291: 27883228
+      BaseGame_BG_292: -540309838
+      BaseGame_BG_293: 1175204922
+      BaseGame_BG_294: 1007267077
+      BaseGame_BG_295: 1904539386
+      BaseGame_BG_296: 2008303807
+      BaseGame_BG_297: 502273690
+      BaseGame_BG_298: 1440224572
+      BaseGame_BG_299: -314086537
+      BaseGame_BG_3: -372107960
+      BaseGame_BG_30: 811389622
+      BaseGame_BG_300: -1956703247
+      BaseGame_BG_301: 848408709
+      BaseGame_BG_302: 771331059
+      BaseGame_BG_303: 1726352496
+      BaseGame_BG_304: 2106409441
+      BaseGame_BG_305: 1835591650
+      BaseGame_BG_306: -1451216310
+      BaseGame_BG_307: 1726522175
+      BaseGame_BG_308: 1522603077
+      BaseGame_BG_309: -1451590032
+      BaseGame_BG_31: 1937081993
+      BaseGame_BG_310: 339865586
+      BaseGame_BG_311: -293404681
+      BaseGame_BG_312: -653970655
+      BaseGame_BG_313: 1711681337
+      BaseGame_BG_314: -803278896
+      BaseGame_BG_315: 891589260
+      BaseGame_BG_316: -605632235
+      BaseGame_BG_317: -2136614459
+      BaseGame_BG_318: 261337703
+      BaseGame_BG_319: -850497775
+      BaseGame_BG_32: -850910828
+      BaseGame_BG_320: -1718648310
+      BaseGame_BG_321: -365132424
+      BaseGame_BG_322: -118948343
+      BaseGame_BG_323: -2039536395
+      BaseGame_BG_324: 1804519838
+      BaseGame_BG_325: -1619066441
+      BaseGame_BG_326: 712486123
+      BaseGame_BG_327: 1602470407
+      BaseGame_BG_328: 1723445377
+      BaseGame_BG_329: 688761939
+      BaseGame_BG_33: 538846921
+      BaseGame_BG_330: 1219261702
+      BaseGame_BG_331: 1975472540
+      BaseGame_BG_332: -350071481
+      BaseGame_BG_333: 253773869
+      BaseGame_BG_334: -1044164657
+      BaseGame_BG_335: -646769469
+      BaseGame_BG_336: 1314540467
+      BaseGame_BG_337: -2089659344
+      BaseGame_BG_338: -662230948
+      BaseGame_BG_339: 2137847158
+      BaseGame_BG_34: -1916069925
+      BaseGame_BG_340: 520621094
+      BaseGame_BG_341: 690632826
+      BaseGame_BG_342: 1702080813
+      BaseGame_BG_343: 1355144394
+      BaseGame_BG_344: -1057631135
+      BaseGame_BG_345: -1507963476
+      BaseGame_BG_346: -710298172
+      BaseGame_BG_347: 1274112842
+      BaseGame_BG_348: -2121249470
+      BaseGame_BG_349: 1254412616
+      BaseGame_BG_35: -872157139
+      BaseGame_BG_350: 314610806
+      BaseGame_BG_351: -462683755
+      BaseGame_BG_352: -338312629
+      BaseGame_BG_353: 811949882
+      BaseGame_BG_354: 1327320515
+      BaseGame_BG_355: -858753573
+      BaseGame_BG_356: 1109493115
+      BaseGame_BG_357: 1411483697
+      BaseGame_BG_358: 1874314450
+      BaseGame_BG_36: -2050605711
+      BaseGame_BG_37: 1231939125
+      BaseGame_BG_38: -1676990018
+      BaseGame_BG_39: 1775962825
+      BaseGame_BG_4: -134722780
+      BaseGame_BG_40: 1244957667
+      BaseGame_BG_41: 1848171084
+      BaseGame_BG_42: 1260604977
+      BaseGame_BG_43: -331501114
+      BaseGame_BG_44: 108762135
+      BaseGame_BG_45: -138300204
+      BaseGame_BG_46: -927051375
+      BaseGame_BG_47: -1159237595
+      BaseGame_BG_48: 527838904
+      BaseGame_BG_49: -538763622
+      BaseGame_BG_5: -507474862
+      BaseGame_BG_50: 2096587524
+      BaseGame_BG_51: -226601770
+      BaseGame_BG_52: 490639746
+      BaseGame_BG_53: 1866058570
+      BaseGame_BG_54: -611799751
+      BaseGame_BG_55: 1179172226
+      BaseGame_BG_56: 1002268881
+      BaseGame_BG_57: 2091543911
+      BaseGame_BG_58: -1599707984
+      BaseGame_BG_59: -1394295766
+      BaseGame_BG_6: 1413579953
+      BaseGame_BG_60: 1307900148
+      BaseGame_BG_61: 2094732264
+      BaseGame_BG_62: 1015525741
+      BaseGame_BG_63: 275953718
+      BaseGame_BG_64: 305729486
+      BaseGame_BG_65: 1056783301
+      BaseGame_BG_66: 110545879
+      BaseGame_BG_67: -467422875
+      BaseGame_BG_68: -1440798542
+      BaseGame_BG_69: -1917857128
+      BaseGame_BG_7: 1696452109
+      BaseGame_BG_70: -966376330
+      BaseGame_BG_71: 1157815521
+      BaseGame_BG_72: -416519380
+      BaseGame_BG_73: 1341906356
+      BaseGame_BG_74: -86708448
+      BaseGame_BG_75: 829386836
+      BaseGame_BG_76: -251588129
+      BaseGame_BG_77: 1619449896
+      BaseGame_BG_78: 1241582930
+      BaseGame_BG_79: 303822805
+      BaseGame_BG_8: 184195083
+      BaseGame_BG_80: -2083841039
+      BaseGame_BG_81: 7723736
+      BaseGame_BG_82: 1638136639
+      BaseGame_BG_83: -1693635770
+      BaseGame_BG_84: -1099270544
+      BaseGame_BG_85: -1994880924
+      BaseGame_BG_86: -949973720
+      BaseGame_BG_87: -417925638
+      BaseGame_BG_88: -42350872
+      BaseGame_BG_89: 274373663
+      BaseGame_BG_9: -137445401
+      BaseGame_BG_90: 22656895
+      BaseGame_BG_91: -180769784
+      BaseGame_BG_92: 1329375379
+      BaseGame_BG_93: -828082732
+      BaseGame_BG_94: 553999377
+      BaseGame_BG_95: -1629749097
+      BaseGame_BG_96: 1289396012
+      BaseGame_BG_97: -1620025166
+      BaseGame_BG_98: -713118113
+      BaseGame_BG_99: -1320607525
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
