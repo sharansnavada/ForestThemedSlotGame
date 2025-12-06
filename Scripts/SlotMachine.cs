@@ -14,7 +14,7 @@ public class SlotMachine : MonoBehaviour
     public List<SymbolData> allSymbols;  // 12 SymbolData here
     
     [Header("Reel Images (3x3 = 9 images)")]
-    public Image[] reelImages;  // Size 9: [0-2]=Reel1, [3-5]=Reel2, [6-8]=Reel3
+    public Image[] reelImages;  // Size 15: [0-4]=Reel1, [5-9]=Reel2, [10-14]=Reel3
     
     [Header("UI Text")]
     public TextMeshProUGUI balanceText;
@@ -29,6 +29,8 @@ public class SlotMachine : MonoBehaviour
     
     private bool isSpinning = false;
     private SymbolData[] currentSymbols = new SymbolData[9];
+
+    public HelpPageManager helpPageManager;
     
     void Start()
     {
@@ -43,14 +45,15 @@ public class SlotMachine : MonoBehaviour
     
     IEnumerator Spin()
     {
+        helpPageManager.infoButton.interactable = false;
         isSpinning = true;
         balance -= bet;
-        messageText.text = "Spinning...";
+        messageText.text = "GOODLUCK";
         UpdateUI();
         
         // Animate spinning (2 seconds)
         float spinTime = 0;
-        while (spinTime < 0.5f)
+        while (spinTime < 0.05f)
         {
             spinTime += Time.deltaTime;
             
@@ -67,7 +70,7 @@ public class SlotMachine : MonoBehaviour
         // Final result
         for (int i = 0; i < 9; i++)
         {
-            currentSymbols[i] = allSymbols[1];/*allSymbols[Random.Range(0, allSymbols.Count)];*/
+            currentSymbols[i] = allSymbols[1];//allSymbols[Random.Range(0, allSymbols.Count)];
             reelImages[i].sprite = currentSymbols[i].symbolSprite;
         }
         
@@ -87,6 +90,7 @@ public class SlotMachine : MonoBehaviour
         }
 
         isSpinning = false;
+        helpPageManager.infoButton.interactable = true;
         UpdateUI();
   
     }
@@ -130,7 +134,7 @@ public class SlotMachine : MonoBehaviour
         if (!isSpinning)
         {
             bet += 5;
-            if (bet > 100) bet = 100;
+            if (bet > 25) bet = 25;
             UpdateUI();
         }
     }
