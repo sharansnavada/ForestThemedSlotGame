@@ -16,6 +16,7 @@ public class HelpPageManager : MonoBehaviour
 
     public int helpPageIndex = 0;
 
+
     public void OnInfoButtonClick()
     {
         infoButton.interactable = false; 

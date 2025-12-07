@@ -8657,7 +8657,6 @@ MonoBehaviour:
   PageIndicatorOn: {fileID: 21300000, guid: a4f5d74f4851243f88cafdb89ac562a0, type: 3}
   PageIndicatorOff: {fileID: 21300000, guid: 85daed72c8ae3462a923f5d7647f252d, type: 3}
   helpPageIndex: 0
-  isHelpPageOpen: 0
 --- !u!1 &894874547
 GameObject:
   m_ObjectHideFlags: 0
@@ -16578,8 +16577,8 @@ RectTransform:
   - {fileID: 416066056}
   - {fileID: 117397731}
   - {fileID: 796895726}
-  - {fileID: 876561002}
   - {fileID: 818926972}
+  - {fileID: 876561002}
   - {fileID: 1912836402}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -128,36 +128,16 @@ public class SlotMachine : MonoBehaviour
             SymbolData bonusSymbol = allSymbols.Find(s => s.name == currentSymbol);
             currentSymbols[i] = bonusSymbol;
             reelImages[i].sprite = currentSymbols[i].symbolSprite;
-            matchingLines[randomIndex].SetActive(true);
         }
+        matchingLines[randomIndex].SetActive(true);
         return SymbolWinpair.Value;
-    }
-    
-    int CheckLine(int pos1, int pos2, int pos3)
-    {
-        SymbolData sym1 = currentSymbols[pos1];
-        SymbolData sym2 = currentSymbols[pos2];
-        SymbolData sym3 = currentSymbols[pos3];
-        
-        // Replace wilds
-        if (sym1.isWild) sym1 = sym2.isWild ? sym3 : sym2;
-        if (sym2.isWild) sym2 = sym1;
-        if (sym3.isWild) sym3 = sym1;
-        
-        // Check if all match
-        if (sym1.symbolID == sym2.symbolID && sym2.symbolID == sym3.symbolID)
-        {
-            return sym1.payoutValue;
-        }
-        
-        return 0;
     }
     
     public void OnIncreaseBet()
     {
         if (!isSpinning)
         {
-            bet += 5;
+            bet += 10;
             if (bet > 25) bet = 25;
             UpdateUI();
         }
@@ -168,7 +148,7 @@ public class SlotMachine : MonoBehaviour
         if (!isSpinning)
         {
             bet -= 5;
-            if (bet < 5) bet = 5;
+            if (bet < 10) bet = 10;
             UpdateUI();
         }
     }
