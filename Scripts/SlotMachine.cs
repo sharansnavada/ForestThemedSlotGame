@@ -42,6 +42,7 @@ public class SlotMachine : MonoBehaviour
     public GameObject[] matchingLines;
 
 
+
     void Start()
     {
         UpdateUI();
