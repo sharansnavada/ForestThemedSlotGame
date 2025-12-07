@@ -3,12 +3,14 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System;
 
 public class SlotMachine : MonoBehaviour
 {
     [Header("Game Settings")]
-    public int balance = 1000;
-    public int bet = 10;
+    public float balance = 1000f;
+    public float bet = 10f;
     
     [Header("All Symbols")]
     public List<SymbolData> allSymbols;  // 12 SymbolData here
@@ -28,10 +30,18 @@ public class SlotMachine : MonoBehaviour
     public Button decreaseBetButton;
     
     private bool isSpinning = false;
-    private SymbolData[] currentSymbols = new SymbolData[9];
+    private SymbolData[] currentSymbols = new SymbolData[15];
 
     public HelpPageManager helpPageManager;
-    
+    public PaylineData payLineData = new PaylineData();
+
+    public string currentSymbol = "";
+
+    public float baseGameReelSpinCount = 0;
+
+    public GameObject[] matchingLines;
+
+
     void Start()
     {
         UpdateUI();
@@ -39,6 +49,11 @@ public class SlotMachine : MonoBehaviour
     
     public void OnSpinClicked()
     {
+        foreach(GameObject line in matchingLines)
+        {
+            line.SetActive(false);
+        }
+
         if (isSpinning || balance < bet) return;
         StartCoroutine(Spin());
     }
@@ -53,29 +68,32 @@ public class SlotMachine : MonoBehaviour
         
         // Animate spinning (2 seconds)
         float spinTime = 0;
-        while (spinTime < 0.05f)
+        while (spinTime < 0.2f)
         {
             spinTime += Time.deltaTime;
-            
+
             // Show random symbols during spin
-            for (int i = 0; i < 9; i++)
+            for (int i = 0; i < 15; i++)
             {
-                SymbolData randomSymbol = allSymbols[Random.Range(0, allSymbols.Count)];
+                SymbolData randomSymbol = allSymbols[UnityEngine.Random.Range(0, allSymbols.Count)];
                 reelImages[i].sprite = randomSymbol.symbolSprite;
             }
             
             yield return new WaitForSeconds(0.1f);
         }
-        
+
         // Final result
-        for (int i = 0; i < 9; i++)
+        float winAmount = 0;
+
+        if (baseGameReelSpinCount % 2 == 0)
         {
-            currentSymbols[i] = allSymbols[1];//allSymbols[Random.Range(0, allSymbols.Count)];
-            reelImages[i].sprite = currentSymbols[i].symbolSprite;
+            winAmount = PlayFinalStops() * bet;
         }
-        
-        // Check for wins
-        int winAmount = CheckWins();
+
+        else
+        {
+            winAmount = 0;
+        }
         
         if (winAmount > 0)
         {
@@ -92,21 +110,26 @@ public class SlotMachine : MonoBehaviour
         isSpinning = false;
         helpPageManager.infoButton.interactable = true;
         UpdateUI();
+        baseGameReelSpinCount++;
   
     }
-    
-    int CheckWins()
+
+    public float PlayFinalStops()
     {
-        int totalWin = 0;
-        
-        // Check 5 paylines
-        totalWin += CheckLine(0, 1, 2);   // Top row
-        totalWin += CheckLine(3, 4, 5);   // Middle row
-        totalWin += CheckLine(6, 7, 8);   // Bottom row
-        totalWin += CheckLine(0, 4, 8);   // Diagonal \
-        totalWin += CheckLine(2, 4, 6);   // Diagonal /
-        
-        return totalWin * bet;
+        int randomIndex = UnityEngine.Random.Range(0, payLineData.lineWins.Count);
+        var SymbolWinpair = payLineData.lineWins.ElementAt(randomIndex);
+
+        List<string> payLineString = SymbolWinpair.Key;
+
+        for (int i = 0; i < 15; i++)
+        {
+            currentSymbol = payLineString[i];
+            SymbolData bonusSymbol = allSymbols.Find(s => s.name == currentSymbol);
+            currentSymbols[i] = bonusSymbol;
+            reelImages[i].sprite = currentSymbols[i].symbolSprite;
+            matchingLines[randomIndex].SetActive(true);
+        }
+        return SymbolWinpair.Value;
     }
     
     int CheckLine(int pos1, int pos2, int pos3)
