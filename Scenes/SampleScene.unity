@@ -5179,6 +5179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4b70260257728f4e92d131c24289220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fgm: {fileID: 1135672868}
   balance: 1000
   bet: 10
   allSymbols:

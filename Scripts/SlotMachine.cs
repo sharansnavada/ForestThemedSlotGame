@@ -8,6 +8,7 @@ using System;
 
 public class SlotMachine : MonoBehaviour
 {
+    public FreeGameManager fgm;
     [Header("Game Settings")]
     public float balance = 1000f;
     public float bet = 10f;
@@ -118,19 +119,29 @@ public class SlotMachine : MonoBehaviour
     public float PlayFinalStops()
     {
         int randomIndex = UnityEngine.Random.Range(0, payLineData.lineWins.Count);
+
         var SymbolWinpair = payLineData.lineWins.ElementAt(randomIndex);
 
-        List<string> payLineString = SymbolWinpair.Key;
-
-        for (int i = 0; i < 15; i++)
+        if(randomIndex == 14 || randomIndex == 15)
         {
-            currentSymbol = payLineString[i];
-            SymbolData bonusSymbol = allSymbols.Find(s => s.name == currentSymbol);
-            currentSymbols[i] = bonusSymbol;
-            reelImages[i].sprite = currentSymbols[i].symbolSprite;
+            fgm.OnDoubleClickSpinBtn();
         }
-        matchingLines[randomIndex].SetActive(true);
-        return SymbolWinpair.Value;
+
+        else
+        {
+            List<string> payLineString = SymbolWinpair.Key;
+
+            for (int i = 0; i < 15; i++)
+            {
+                currentSymbol = payLineString[i];
+                SymbolData bonusSymbol = allSymbols.Find(s => s.name == currentSymbol);
+                currentSymbols[i] = bonusSymbol;
+                reelImages[i].sprite = currentSymbols[i].symbolSprite;
+            }
+            matchingLines[randomIndex].SetActive(true);
+            return SymbolWinpair.Value;
+        }
+        return 0;
     }
     
     public void OnIncreaseBet()
