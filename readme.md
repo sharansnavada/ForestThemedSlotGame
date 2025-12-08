@@ -1,10 +1,13 @@
-Assests - Assests have the document, ppt of requirement and architecture of the game
-		  It also has the assets to develop the game.
+The repository structure have been explained in the following points - 
+This repo has three folders - Assets, Unity_Package and Unity_Project.
+
+Assests - Assets have the document, ppt of requirement and architecture of the game
+		       It also has the assets to develop the game.
 		
-Unity_Package - Unity_Package is the exported asset from the unity project of the developed game directly from the unity
+Unity_Package - Unity_Package is the exported asset(ready game) from the unity project of the developed game directly from the unity
 
 UnityProject - Unity_Project consists of 5 folders(Scenes, ScriptableObjects, Scripts, sounds, Sprites)
-			   if you dont know how to deal with the Unity_Package, use this Unity_Project -
+			            if you dont know how to deal with the Unity_Package, use this Unity_Project -
 			    
 				1) Create unity 2D project
 				2) Go to Assets folder in your project and delete scene folder
