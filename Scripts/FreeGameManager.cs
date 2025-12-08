@@ -867,6 +867,8 @@ public class FreeGameManager : MonoBehaviour
         StartCoroutine(FreeGamesFlow());
 
         totalFreeGameWin = 0;
+
+        isFirstGame = true;
     }
 
     private IEnumerator FreeGamesFlow()
