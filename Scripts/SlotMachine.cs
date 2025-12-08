@@ -153,7 +153,7 @@ public class SlotMachine : MonoBehaviour
         }
     }
     
-    void UpdateUI()
+    public void UpdateUI()
     {
         balanceText.text = $"${balance}";
         betText.text = $"${bet}";
