@@ -48,6 +48,8 @@ public class FreeGameManager : MonoBehaviour
 
     public bool isFirstGame = true;
 
+    public SoundManager soundManager;
+
     void Start()
     {
         
@@ -70,6 +72,8 @@ public class FreeGameManager : MonoBehaviour
 
     public void OnDoubleClickSpinBtn()
     {
+        soundManager.reelSpinAudio.Play();
+
         spinsPlayed.text = "0";
 
         StartCoroutine(FreeGamesFlow());
@@ -77,12 +81,19 @@ public class FreeGameManager : MonoBehaviour
         totalFreeGameWin = 0;
 
         isFirstGame = true;
+
     }
 
     private IEnumerator FreeGamesFlow()
     {
         
         yield return StartCoroutine(RunOneGame());
+
+        soundManager.reelSpinAudio.Pause();
+        soundManager.bonusLandStopAudio.Play();
+
+        soundManager.baseGameAudio.Pause();
+        soundManager.bonusWinAudio.Play();
 
         isFirstGame = false;
         // 1) Show grey BG + text for 3 seconds
@@ -106,7 +117,7 @@ public class FreeGameManager : MonoBehaviour
         greyBackGround.SetActive(true);
         FreeGameTextImage.SetActive(true);
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(8f);
 
         greyBackGround.SetActive(false);
         FreeGameTextImage.SetActive(false);
@@ -190,13 +201,18 @@ public class FreeGameManager : MonoBehaviour
 
             freeGameReelSpinCount++;
             spinsPlayed.text = freeGameReelSpinCount.ToString();
+
+            soundManager.bonusWinAudio.volume = 0.3f;
         }
 
-        amountWon.text = "$  " + totalFreeGameWin.ToString();
+        amountWon.text = "$" + totalFreeGameWin.ToString();
     }
 
     IEnumerator Spin()
     {
+        soundManager.bonusWinAudio.volume = 0.3f;
+        soundManager.reelSpinAudio.Play();
+
         float spinTime = 0;
         while (spinTime < 0.2f)
         {
@@ -248,6 +264,11 @@ public class FreeGameManager : MonoBehaviour
             reelImages[i].sprite = currentSymbols[i].symbolSprite;
         }
 
+        soundManager.reelSpinAudio.Pause();
+        soundManager.bonusLandStopAudio.Play();
+
+        soundManager.bonusWinAudio.volume = 1f;
+
         matchingLines[randomIndex].SetActive(true);
 
         totalFreeGameWin += SymbolWinpair.Value * slotMachine.bet;
@@ -256,9 +277,19 @@ public class FreeGameManager : MonoBehaviour
 
     IEnumerator PlayBigWinAnimation()
     {
+
+        soundManager.bonusWinAudio.Pause();
+
+        soundManager.bigWinAnimationAudio.Play();
+
         BigWinBanner.SetActive(true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(8f);
         BigWinBanner.SetActive(false);
+
+        soundManager.bigWinAnimationAudio.Pause();
+
+        soundManager.baseGameAudio.Play();
+
     }
 }
 

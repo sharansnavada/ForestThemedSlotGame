@@ -5,6 +5,7 @@ public class LoadingScreen : MonoBehaviour
 {
     public GameObject loadingScreen;
     public GameObject freeGameAdvertise;
+    public SoundManager soundManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,5 +21,8 @@ public class LoadingScreen : MonoBehaviour
     public void OnClickContinueBtn()
     {
         freeGameAdvertise.SetActive(false);
+        soundManager.loadingAudio.Pause();
+        soundManager.baseGameAudio.Play();
+
     }
 }

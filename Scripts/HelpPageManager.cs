@@ -16,9 +16,13 @@ public class HelpPageManager : MonoBehaviour
 
     public int helpPageIndex = 0;
 
+    public SoundManager soundManager;
+
 
     public void OnInfoButtonClick()
     {
+        soundManager.buttonClickAudio.Play();
+
         infoButton.interactable = false; 
         helpPageBG.SetActive(true);
         navigationPanel.SetActive(true);
@@ -39,6 +43,8 @@ public class HelpPageManager : MonoBehaviour
 
     public void OnClickNextArrowButton()
     {
+        soundManager.buttonClickAudio.Play();
+        
         CloseCurrentHelpPage();
         helpPageIndex = (helpPageIndex + 1) % helpPages.Length;
         ShowHelpPage(helpPageIndex);
@@ -46,6 +52,8 @@ public class HelpPageManager : MonoBehaviour
 
     public void OnClickPrevArrowButton()
     {
+        soundManager.buttonClickAudio.Play();
+
         CloseCurrentHelpPage();
         helpPageIndex = (helpPageIndex - 1 + helpPages.Length) % helpPages.Length;
         ShowHelpPage(helpPageIndex);
@@ -53,6 +61,8 @@ public class HelpPageManager : MonoBehaviour
 
     public void OnClickCloseButton()
     {
+        soundManager.buttonClickAudio.Play();
+
         CloseCurrentHelpPage();
         helpPageBG.SetActive(false);
         navigationPanel.SetActive(false);

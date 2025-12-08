@@ -42,15 +42,21 @@ public class SlotMachine : MonoBehaviour
 
     public GameObject[] matchingLines;
 
+    public SoundManager soundManager;
 
+    public bool gameWon = false;
+
+    public int randomIndex = 0;
 
     void Start()
     {
+        soundManager.loadingAudio.Play();
         UpdateUI();
     }
     
     public void OnSpinClicked()
     {
+        soundManager.buttonClickAudio.Play();
         foreach(GameObject line in matchingLines)
         {
             line.SetActive(false);
@@ -67,7 +73,9 @@ public class SlotMachine : MonoBehaviour
         balance -= bet;
         messageText.text = "GOODLUCK";
         UpdateUI();
-        
+
+        soundManager.baseGameAudio.volume = 0.2f;
+        soundManager.reelSpinAudio.Play();
         // Animate spinning (2 seconds)
         float spinTime = 0;
         while (spinTime < 0.2f)
@@ -89,11 +97,13 @@ public class SlotMachine : MonoBehaviour
 
         if (baseGameReelSpinCount % 2 == 0)
         {
+            gameWon = true;
             winAmount = PlayFinalStops() * bet;
         }
 
         else
         {
+            gameWon = false;
             winAmount = 0;
         }
         
@@ -113,12 +123,24 @@ public class SlotMachine : MonoBehaviour
         helpPageManager.infoButton.interactable = true;
         UpdateUI();
         baseGameReelSpinCount++;
-  
+
+        if (randomIndex == 14 || randomIndex == 15)
+            soundManager.bonusLandStopAudio.Play();
+        else if (randomIndex == 12 || randomIndex == 13)
+            soundManager.wildStopAudio.Play();
+        else if (gameWon)
+            soundManager.baseGameStopAudio.Play();
+        else
+            soundManager.gameLostAudio.Play();
+
+        soundManager.reelSpinAudio.Pause();
+        soundManager.reelStopAudio.Play();
+        soundManager.baseGameAudio.volume = 1f;
     }
 
     public float PlayFinalStops()
     {
-        int randomIndex = UnityEngine.Random.Range(0, payLineData.lineWins.Count);
+        randomIndex = UnityEngine.Random.Range(0, payLineData.lineWins.Count);
 
         var SymbolWinpair = payLineData.lineWins.ElementAt(randomIndex);
 
@@ -146,6 +168,8 @@ public class SlotMachine : MonoBehaviour
     
     public void OnIncreaseBet()
     {
+        soundManager.buttonClickAudio.Play();
+
         if (!isSpinning)
         {
             bet += 10;
@@ -156,6 +180,8 @@ public class SlotMachine : MonoBehaviour
     
     public void OnDecreaseBet()
     {
+        soundManager.buttonClickAudio.Play();
+
         if (!isSpinning)
         {
             bet -= 5;

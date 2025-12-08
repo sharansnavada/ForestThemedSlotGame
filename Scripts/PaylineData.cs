@@ -23,8 +23,8 @@ public class PaylineData : MonoBehaviour
 
     List<string> threeWilMatch1 = new List<string> { "L5_10", "H4_Wolf", "WILD", "L1_A", "L4_J", "H1_Bear", "L4_J", "L1_A", "BONUS", "BONUS", "L4_J", "L3_Q", "BONUS", "H1_Bear", "L4_J" }; // 10,6,2,8,14 (L4_J)(WILD)
     List<string> threeWildMatch2 = new List<string> { "H4_Wolf", "H2_Deer", "SCATTER", "L3_Q", "L1_A", "H2_Deer", "L2_K", "WILD", "L1_A", "H2_Deer", "SCATTER", "H2_Deer", "L4_J", "H2_Deer", "L1_A" }; // 5,11,7,4,9 (H2_Deer)
-    List<string> bonusMatch1 = new List<string> { "BONUS", "L5_10", "WILD", "BONUS", "L1_A", "WILD", "BONUS", "L1_A", "SCATTER", "H4_Wolf", "L1_A", "L5_10", "L1_A", "L3_Q", "L1_A" }; // 0,1,2(bonus)
-    List<string> bonusMatch2 = new List<string> { "H4_Wolf", "L5_10", "SCATTER", "L3_Q", "L3_Q", "BONUS", "L2_K", "H3_Fox", "BONUS", "L2_K", "L3_Q", "BONUS", "L4_J", "L3_Q", "L1_A" }; // 11,12,13(bonus)
+    List<string> bonusMatch1 = new List<string> { "SCATTER", "L5_10", "WILD", "SCATTER", "L1_A", "WILD", "SCATTER", "L1_A", "BONUS", "H4_Wolf", "L1_A", "L5_10", "L1_A", "L3_Q", "L1_A" }; // 0,1,2(bonus)
+    List<string> bonusMatch2 = new List<string> { "H4_Wolf", "L5_10", "BONUS", "L3_Q", "L3_Q", "SCATTER", "L2_K", "H3_Fox", "SCATTER", "L2_K", "L3_Q", "SCATTER", "L4_J", "L3_Q", "L1_A" }; // 11,12,13(bonus)
 
     public Dictionary<List<string>, float> lineWins = new Dictionary<List<string>, float>();
 
