@@ -25,14 +25,49 @@ A small Unity-based slot-machine-style game with a forest theme. This project co
 
 ## How to open and run
 
-1. Clone the repository:
+# Forest Themed Slot Game - Setup Instructions
 
-   git clone https://github.com/sharansnavada/ForestThemedSlotGame.git
+# Forest Themed Slot Game - Setup Instructions
 
-2. Open Unity Hub, click "Add", and select the `UnityProject` folder inside the cloned repo.
-3. Open the project in Unity. If Unity prompts to upgrade the project, follow the prompts and back up if necessary.
-4. Open the main scene (look in the project's Scenes folder). If you cannot find a main scene, search for scenes in `Assets/Scenes` or look for scene files with names like `Main.unity`, `Game.unity`, or `SampleScene.unity`.
-5. Enter Play mode in the Editor to test the slot game.
+## 1. Clone the Repository
+```bash
+git clone https://github.com/sharansnavada/ForestThemedSlotGame.git
+
+
+## 2. Create a New Unity Project
+
+Open Unity Hub
+
+Click New Project to create a new project
+
+Delete the Scenes folder from the newly created project
+
+Copy all 5 folders from the UnityProject directory inside the cloned repository
+
+Paste them into your newly created Unity project folder
+
+## 3. Open the Project in Unity
+
+Open the Unity project
+
+If Unity asks to upgrade the project, follow the prompts and take a backup if needed
+
+You may be prompted to import TMP_Essentials — proceed with the import
+
+## 4. Open the Main Scene
+
+Go to the Scenes folder in the project
+
+If you cannot find the main scene:
+
+Look inside Assets/Scenes
+
+Or search for SampleScene.unity
+
+## 5. Run the Game
+
+Press the Play button in the Unity Editor to test the slot game
+
 
 ## Unity Package
 
