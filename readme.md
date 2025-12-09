@@ -42,7 +42,7 @@ Delete the Scenes folder from the newly created project
 
 Copy all 5 folders from the UnityProject directory inside the cloned repository
 
-Paste them into your newly created Unity project folder
+Paste them into your newly created Unity project "assets" folder
 
 ## 3. Open the Project in Unity
 
