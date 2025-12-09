@@ -27,10 +27,8 @@ A small Unity-based slot-machine-style game with a forest theme. This project co
 
 # Forest Themed Slot Game - Setup Instructions
 
-# Forest Themed Slot Game - Setup Instructions
-
 ## 1. Clone the Repository
-```bash
+
 git clone https://github.com/sharansnavada/ForestThemedSlotGame.git
 
 
@@ -68,6 +66,7 @@ Or search for SampleScene.unity
 
 Press the Play button in the Unity Editor to test the slot game
 
+---
 
 ## Unity Package
 
