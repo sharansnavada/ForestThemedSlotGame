@@ -1,5 +1,7 @@
 # Forest Themed Slot Game
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A small Unity-based slot-machine-style game with a forest theme. This project contains the Unity project files, art assets, and an optional Unity Package for distributing or reusing parts of the project.
 
 ## Overview
@@ -14,6 +16,7 @@ A small Unity-based slot-machine-style game with a forest theme. This project co
 - UnityProject/  (the Unity project folder — open this with Unity Hub)
 - Unity_Package/  (optional package(s) exported from the project)
 - readme.md  (this file)
+- LICENSE
 
 ## Requirements
 
@@ -57,8 +60,4 @@ Please open issues for bugs, feature requests, or general questions.
 
 ## License
 
-No license file included in the repository. If you want this project to be open source, add a LICENSE file (for example, the MIT license).
-
-## Contact
-
-Repository owner: @sharansnavada
+This project is licensed under the MIT License — see the included LICENSE file for details.
