@@ -7,188 +7,255 @@ using UnityEngine.UI;
 
 public class FreeGameManager : MonoBehaviour
 {
-   public SlotMachine slotMachine;
+    float totalFreeGameWin = 0;
+    public TextMeshProUGUI amountWon;
+    public GameObject BigWinBanner;
 
-   public GameObject greyBackGround;
-   public GameObject FreeGameTextImage;
+    public SlotMachine slotMachine;
 
-   public Sprite BaseGameImage;
-   public Sprite freeGameImage;
-   public GameObject BaseGameBackGroundGameObject;
-   public Sprite baseGameBG;
+    public GameObject greyBackGround;
+    public GameObject FreeGameTextImage;
 
-   public GameObject gameLogo;
-   public GameObject freeSpin_Banner;
+    public Sprite BaseGameImage;
+    public Sprite freeGameImage;
+    public GameObject BaseGameBackGroundGameObject;
+    public Sprite baseGameBG;
 
-   public Button[] buttonPanels;
+    public GameObject gameLogo;
+    public GameObject freeSpin_Banner;
 
-   public GameObject spinsDataGameObject;
-   public TextMeshProUGUI spinsPlayed;
+    public Button[] buttonPanels;
 
-   [Header("All Symbols")]
-   public List<SymbolData> allSymbols;  // 12 SymbolData here
+    public GameObject spinsDataGameObject;
+    public TextMeshProUGUI spinsPlayed;
 
-   [Header("Reel Images (3x3 = 9 images)")]
-   public Image[] reelImages;  // Size 15: [0-4]=Reel1, [5-9]=Reel2, [10-14]=Reel3
+    [Header("All Symbols")]
+    public List<SymbolData> allSymbols;  // 12 SymbolData here
 
-   private SymbolData[] currentSymbols = new SymbolData[15];
+    [Header("Reel Images (3x3 = 9 images)")]
+    public Image[] reelImages;  // Size 15: [0-4]=Reel1, [5-9]=Reel2, [10-14]=Reel3
 
-   public string currentSymbol = "";
-   public PaylineData payLineData = new PaylineData();
+    private SymbolData[] currentSymbols = new SymbolData[15];
 
-   public GameObject[] matchingLines;
+    public string currentSymbol = "";
+    public PaylineData payLineData = new PaylineData();
 
-   public float freeGameReelSpinCount = 0;
+    public GameObject[] matchingLines;
 
-   void Start()
-   {
+    public float freeGameReelSpinCount = 0;
 
-   }
+    public GameObject winText;
 
-   void Update()
-   {
+    public bool isFirstGame = true;
 
-   }
+    void Start()
+    {
+        
+    }
 
-   public void OnDoubleClickSpinBtn()
-   {
-       StartCoroutine(FreeGamesFlow());
-   }
+    void Update()
+    {
 
-   private IEnumerator FreeGamesFlow()
-   {
-       // FIRST show the free game animation
-       yield return StartCoroutine(EnableBGandFGText());
+    }
+    private IEnumerator RunOneGame()
+    {
+        foreach (GameObject line in matchingLines)
+        {
+            line.SetActive(false);
+        }
 
-       // THEN enable free game UI
-       EnableFreeGameUI();
+        // wait for a single spin to finish
+        yield return StartCoroutine(Spin());
+    }
 
-       // THEN start the free spins
-       yield return StartCoroutine(PlayFreeGamesRoutine());
+    public void OnDoubleClickSpinBtn()
+    {
+        spinsPlayed.text = "0";
 
-       // FINALLY revert UI
-       RevertFreeGameUI();
-   }
+        StartCoroutine(FreeGamesFlow());
 
-   IEnumerator EnableBGandFGText()
-   {
-       greyBackGround.SetActive(true);
-       FreeGameTextImage.SetActive(true);
+        totalFreeGameWin = 0;
+    }
 
-       yield return new WaitForSeconds(3f);
+    private IEnumerator FreeGamesFlow()
+    {
+        
+        yield return StartCoroutine(RunOneGame());
 
-       greyBackGround.SetActive(false);
-       FreeGameTextImage.SetActive(false);
-   }
+        isFirstGame = false;
+        // 1) Show grey BG + text for 3 seconds
+        yield return StartCoroutine(EnableBGandFGText());
 
-   public void EnableFreeGameUI()
-   {
-       baseGameBG = BaseGameBackGroundGameObject.GetComponent<Sprite>();
-       baseGameBG = freeGameImage;
+        // 2) Enter free game UI state
+        EnableFreeGameUI();
 
-       gameLogo.SetActive(false);
-       freeSpin_Banner.SetActive(true);
+        // 3) Play all free spins
+        yield return StartCoroutine(PlayFreeGamesRoutine());
 
-       DisableButtonPanels();
+        // 4) Back to base game UI
+        RevertFreeGameUI();
 
-       spinsDataGameObject.SetActive(true);
-   }
+        yield return StartCoroutine(PlayBigWinAnimation());
 
-   public void RevertFreeGameUI()
-   {
-       baseGameBG = BaseGameBackGroundGameObject.GetComponent<Sprite>();
-       baseGameBG = BaseGameImage;
+    }
 
-       gameLogo.SetActive(true);
-       freeSpin_Banner.SetActive(false);
+    IEnumerator EnableBGandFGText()
+    {
+        greyBackGround.SetActive(true);
+        FreeGameTextImage.SetActive(true);
 
-       EnableButtonPanels();
+        yield return new WaitForSeconds(3f);
 
-       spinsDataGameObject.SetActive(false);
-   }
+        greyBackGround.SetActive(false);
+        FreeGameTextImage.SetActive(false);
+    }
 
-   public void DisableButtonPanels()
-   {
-       foreach (Button btn in buttonPanels)
-       {
-           btn.interactable = false;
-       }
-   }
+    public void EnableFreeGameUI()
+    {
+        // Use SpriteRenderer here (your background has a SpriteRenderer)
+        SpriteRenderer bgRenderer = BaseGameBackGroundGameObject.GetComponent<SpriteRenderer>();
+        if (bgRenderer != null)
+        {
+            // store current sprite, just in case you need it
+            baseGameBG = bgRenderer.sprite;
+            bgRenderer.sprite = freeGameImage;
+        }
 
-   public void EnableButtonPanels()
-   {
-       foreach (Button btn in buttonPanels)
-       {
-           btn.interactable = true;
-       }
-   }
+        gameLogo.SetActive(false);
+        freeSpin_Banner.SetActive(true);
 
-   private IEnumerator PlayFreeGamesRoutine()
-   {
-       freeGameReelSpinCount = 0;
+        DisableButtonPanels();
 
-       while (freeGameReelSpinCount < 8)
-       {
-           foreach (GameObject line in matchingLines)
-           {
-               line.SetActive(false);
-           }
+        spinsDataGameObject.SetActive(true);
 
-           yield return StartCoroutine(Spin());
+        winText.SetActive(false);
+    }
 
-           freeGameReelSpinCount++;
-           spinsPlayed.text = freeGameReelSpinCount.ToString();
-       }
-   }
+    public void RevertFreeGameUI()
+    {
+        // Revert SpriteRenderer sprite back to base game
+        SpriteRenderer bgRenderer = BaseGameBackGroundGameObject.GetComponent<SpriteRenderer>();
+        if (bgRenderer != null)
+        {
+            bgRenderer.sprite = BaseGameImage;
+        }
 
-   IEnumerator Spin()
-   {
-       float spinTime = 0;
-       while (spinTime < 0.2f)
-       {
-           spinTime += Time.deltaTime;
+        gameLogo.SetActive(true);
+        freeSpin_Banner.SetActive(false);
 
-           for (int i = 0; i < 15; i++)
-           {
-               SymbolData randomSymbol = allSymbols[UnityEngine.Random.Range(0, allSymbols.Count)];
-               reelImages[i].sprite = randomSymbol.symbolSprite;
-           }
+        EnableButtonPanels();
 
-           yield return new WaitForSeconds(0.1f);
-       }
+        spinsDataGameObject.SetActive(false);
 
-       float winAmount = 0;
+        winText.SetActive(true);
+    }
 
-       winAmount += PlayFinalStops() * slotMachine.bet;
+    public void DisableButtonPanels()
+    {
+        foreach (Button btn in buttonPanels)
+        {
+            btn.interactable = false;
+        }
+    }
 
-       if (winAmount > 0)
-       {
-           slotMachine.balance += winAmount;
-           slotMachine.messageText.text = $"WIN ${winAmount}!";
-           slotMachine.winText.text = $"${winAmount}";
-       }
+    public void EnableButtonPanels()
+    {
+        foreach (Button btn in buttonPanels)
+        {
+            btn.interactable = true;
+        }
+    }
 
-       slotMachine.UpdateUI();
+    private IEnumerator PlayFreeGamesRoutine()
+    {
+        foreach (GameObject line in matchingLines)
+        {
+            line.SetActive(false);
+        }
 
-       yield return new WaitForSeconds(3f);
-   }
+        // wait for a single spin to finish
+        freeGameReelSpinCount = 0;
 
-   public float PlayFinalStops()
-   {
-       int randomIndex = UnityEngine.Random.Range(0, payLineData.lineWins.Count);
-       var SymbolWinpair = payLineData.lineWins.ElementAt(randomIndex);
+        while (freeGameReelSpinCount < 8)
+        {
+            foreach (GameObject line in matchingLines)
+            {
+                line.SetActive(false);
+            }
 
-       List<string> payLineString = SymbolWinpair.Key;
+            // wait for a single spin to finish
+            yield return StartCoroutine(Spin());
 
-       for (int i = 0; i < 15; i++)
-       {
-           currentSymbol = payLineString[i];
-           SymbolData bonusSymbol = allSymbols.Find(s => s.name == currentSymbol);
-           currentSymbols[i] = bonusSymbol;
-           reelImages[i].sprite = currentSymbols[i].symbolSprite;
-       }
+            freeGameReelSpinCount++;
+            spinsPlayed.text = freeGameReelSpinCount.ToString();
+        }
 
-       matchingLines[randomIndex].SetActive(true);
-       return SymbolWinpair.Value;
-   }
+        amountWon.text = "$  " + totalFreeGameWin.ToString();
+    }
+
+    IEnumerator Spin()
+    {
+        float spinTime = 0;
+        while (spinTime < 0.2f)
+        {
+            spinTime += Time.deltaTime;
+
+            for (int i = 0; i < 15; i++)
+            {
+                SymbolData randomSymbol = allSymbols[UnityEngine.Random.Range(0, allSymbols.Count)];
+                reelImages[i].sprite = randomSymbol.symbolSprite;
+            }
+
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        float winAmount = 0;
+
+        winAmount += PlayFinalStops() * slotMachine.bet;
+
+        if (winAmount > 0)
+        {
+            slotMachine.balance += winAmount;
+            slotMachine.messageText.text = $"WIN ${winAmount}!";
+            slotMachine.winText.text = $"${winAmount}";
+        }
+
+        slotMachine.UpdateUI();
+
+        yield return new WaitForSeconds(3f);
+    }
+
+    public float PlayFinalStops()
+    {
+        int randomIndex = 0;
+
+        if (isFirstGame)
+            randomIndex = 14;
+        else
+            randomIndex = UnityEngine.Random.Range(0, payLineData.lineWins.Count);
+
+        var SymbolWinpair = payLineData.lineWins.ElementAt(randomIndex);
+
+        List<string> payLineString = SymbolWinpair.Key;
+
+        for (int i = 0; i < 15; i++)
+        {
+            currentSymbol = payLineString[i];
+            SymbolData bonusSymbol = allSymbols.Find(s => s.name == currentSymbol);
+            currentSymbols[i] = bonusSymbol;
+            reelImages[i].sprite = currentSymbols[i].symbolSprite;
+        }
+
+        matchingLines[randomIndex].SetActive(true);
+
+        totalFreeGameWin += SymbolWinpair.Value;
+        return SymbolWinpair.Value;
+    }
+
+    IEnumerator PlayBigWinAnimation()
+    {
+        BigWinBanner.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        BigWinBanner.SetActive(false);
+    }
 }
