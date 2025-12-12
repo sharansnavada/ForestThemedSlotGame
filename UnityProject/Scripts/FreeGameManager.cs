@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class FreeGameManager : MonoBehaviour
 {
-   public GameObject WinText;
    public SlotMachine slotMachine;
 
    public GameObject greyBackGround;
@@ -41,13 +40,11 @@ public class FreeGameManager : MonoBehaviour
 
    public float freeGameReelSpinCount = 0;
 
-   // Start is called once before the first execution of Update after the MonoBehaviour is created
    void Start()
    {
 
    }
 
-   // Update is called once per frame
    void Update()
    {
 
@@ -55,23 +52,21 @@ public class FreeGameManager : MonoBehaviour
 
    public void OnDoubleClickSpinBtn()
    {
-       WinText.SetActive(false);
-       // changed: run the whole free game flow as a coroutine
        StartCoroutine(FreeGamesFlow());
    }
 
    private IEnumerator FreeGamesFlow()
    {
-       // show grey BG + free game text
-       StartCoroutine(EnableBGandFGText());
+       // FIRST show the free game animation
+       yield return StartCoroutine(EnableBGandFGText());
 
-       // enable free game UI (this includes spinsDataGameObject.SetActive(true))
+       // THEN enable free game UI
        EnableFreeGameUI();
 
-       // wait until all free games are played
+       // THEN start the free spins
        yield return StartCoroutine(PlayFreeGamesRoutine());
 
-       // now revert back to base game UI
+       // FINALLY revert UI
        RevertFreeGameUI();
    }
 
@@ -79,7 +74,9 @@ public class FreeGameManager : MonoBehaviour
    {
        greyBackGround.SetActive(true);
        FreeGameTextImage.SetActive(true);
+
        yield return new WaitForSeconds(3f);
+
        greyBackGround.SetActive(false);
        FreeGameTextImage.SetActive(false);
    }
@@ -108,8 +105,6 @@ public class FreeGameManager : MonoBehaviour
        EnableButtonPanels();
 
        spinsDataGameObject.SetActive(false);
-
-       WinText.SetActive(true);
    }
 
    public void DisableButtonPanels()
@@ -128,14 +123,10 @@ public class FreeGameManager : MonoBehaviour
        }
    }
 
-   public void PlayFreeGames()
-   {
-       // unchanged public API: still just starts the routine
-       StartCoroutine(PlayFreeGamesRoutine());
-   }
-
    private IEnumerator PlayFreeGamesRoutine()
    {
+       freeGameReelSpinCount = 0;
+
        while (freeGameReelSpinCount < 8)
        {
            foreach (GameObject line in matchingLines)
@@ -143,7 +134,6 @@ public class FreeGameManager : MonoBehaviour
                line.SetActive(false);
            }
 
-           // Wait for this spin to finish before starting the next
            yield return StartCoroutine(Spin());
 
            freeGameReelSpinCount++;
@@ -153,14 +143,11 @@ public class FreeGameManager : MonoBehaviour
 
    IEnumerator Spin()
    {
-
-       // Animate spinning (2 seconds)
        float spinTime = 0;
        while (spinTime < 0.2f)
        {
            spinTime += Time.deltaTime;
 
-           // Show random symbols during spin
            for (int i = 0; i < 15; i++)
            {
                SymbolData randomSymbol = allSymbols[UnityEngine.Random.Range(0, allSymbols.Count)];
@@ -170,11 +157,9 @@ public class FreeGameManager : MonoBehaviour
            yield return new WaitForSeconds(0.1f);
        }
 
-       // Final result
        float winAmount = 0;
 
        winAmount += PlayFinalStops() * slotMachine.bet;
-
 
        if (winAmount > 0)
        {
@@ -186,7 +171,6 @@ public class FreeGameManager : MonoBehaviour
        slotMachine.UpdateUI();
 
        yield return new WaitForSeconds(3f);
-
    }
 
    public float PlayFinalStops()
@@ -203,6 +187,7 @@ public class FreeGameManager : MonoBehaviour
            currentSymbols[i] = bonusSymbol;
            reelImages[i].sprite = currentSymbols[i].symbolSprite;
        }
+
        matchingLines[randomIndex].SetActive(true);
        return SymbolWinpair.Value;
    }
