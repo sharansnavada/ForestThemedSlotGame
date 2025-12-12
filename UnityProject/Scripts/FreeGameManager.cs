@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class FreeGameManager : MonoBehaviour
 {
+   public GameObject WinText;
    public SlotMachine slotMachine;
 
    public GameObject greyBackGround;
@@ -44,7 +45,6 @@ public class FreeGameManager : MonoBehaviour
    void Start()
    {
 
-
    }
 
    // Update is called once per frame
@@ -55,14 +55,24 @@ public class FreeGameManager : MonoBehaviour
 
    public void OnDoubleClickSpinBtn()
    {
+       WinText.SetActive(false);
+       // changed: run the whole free game flow as a coroutine
+       StartCoroutine(FreeGamesFlow());
+   }
+
+   private IEnumerator FreeGamesFlow()
+   {
+       // show grey BG + free game text
        StartCoroutine(EnableBGandFGText());
 
+       // enable free game UI (this includes spinsDataGameObject.SetActive(true))
        EnableFreeGameUI();
 
-       PlayFreeGames();
+       // wait until all free games are played
+       yield return StartCoroutine(PlayFreeGamesRoutine());
 
+       // now revert back to base game UI
        RevertFreeGameUI();
-
    }
 
    IEnumerator EnableBGandFGText()
@@ -98,6 +108,8 @@ public class FreeGameManager : MonoBehaviour
        EnableButtonPanels();
 
        spinsDataGameObject.SetActive(false);
+
+       WinText.SetActive(true);
    }
 
    public void DisableButtonPanels()
@@ -118,15 +130,12 @@ public class FreeGameManager : MonoBehaviour
 
    public void PlayFreeGames()
    {
-       freeGameReelSpinCount = 0;
-       // Only change: instead of running all spins at once,
-       // we start a coroutine that runs them one by one.
+       // unchanged public API: still just starts the routine
        StartCoroutine(PlayFreeGamesRoutine());
    }
 
    private IEnumerator PlayFreeGamesRoutine()
    {
-       yield return new WaitForSeconds(5f);
        while (freeGameReelSpinCount < 8)
        {
            foreach (GameObject line in matchingLines)
@@ -174,7 +183,7 @@ public class FreeGameManager : MonoBehaviour
            slotMachine.winText.text = $"${winAmount}";
        }
 
-       //slotMachine.UpdateUI();
+       slotMachine.UpdateUI();
 
        yield return new WaitForSeconds(3f);
 
