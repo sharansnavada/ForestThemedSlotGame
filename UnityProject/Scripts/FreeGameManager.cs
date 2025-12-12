@@ -102,7 +102,7 @@ public class FreeGameManager : MonoBehaviour
 
    public void DisableButtonPanels()
    {
-       foreach(Button btn in buttonPanels)
+       foreach (Button btn in buttonPanels)
        {
            btn.interactable = false;
        }
@@ -118,14 +118,25 @@ public class FreeGameManager : MonoBehaviour
 
    public void PlayFreeGames()
    {
-       while(freeGameReelSpinCount < 8)
+       freeGameReelSpinCount = 0;
+       // Only change: instead of running all spins at once,
+       // we start a coroutine that runs them one by one.
+       StartCoroutine(PlayFreeGamesRoutine());
+   }
+
+   private IEnumerator PlayFreeGamesRoutine()
+   {
+       yield return new WaitForSeconds(5f);
+       while (freeGameReelSpinCount < 8)
        {
            foreach (GameObject line in matchingLines)
            {
                line.SetActive(false);
            }
 
-           StartCoroutine(Spin());
+           // Wait for this spin to finish before starting the next
+           yield return StartCoroutine(Spin());
+
            freeGameReelSpinCount++;
            spinsPlayed.text = freeGameReelSpinCount.ToString();
        }
@@ -163,7 +174,7 @@ public class FreeGameManager : MonoBehaviour
            slotMachine.winText.text = $"${winAmount}";
        }
 
-       slotMachine.UpdateUI();
+       //slotMachine.UpdateUI();
 
        yield return new WaitForSeconds(3f);
 
